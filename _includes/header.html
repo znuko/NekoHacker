@@ -1,0 +1,30 @@
+<header class="site-header">
+
+  <div class="header-col-wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times hidden"></i>
+      </span>
+
+      <ul class="menu-list">
+        {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+            {%- if my_page.url != "/" -%}
+            <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+      <div class="overlay hidden"></div>
+    </nav>
+
+  </div>
+
+</header>

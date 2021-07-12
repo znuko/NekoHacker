@@ -1,0 +1,314 @@
+//
+// Header
+//
+.site-header {
+  // background-color: gold;
+  @extend %wrapper;
+  border-bottom: 1px solid $border-color-01;
+  height: $spacing-unit * 1.865;
+  // height: 100px;
+}
+
+.header-col-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+
+.site-title {
+  @include relative-font-size(1.625);
+  font-weight: 300;
+  letter-spacing: -1px;
+
+  @include media-query($on-palm) {
+    padding-right: 45px;
+  }
+
+  &,
+  &:visited {
+    color: $site-title-color;
+  }
+}
+
+
+.site-nav {
+  .menu-icon {
+    display: none;
+    position: relative;
+    z-index: 5;
+    background-color: $background-color;
+    border: 1px solid $border-color-01;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    text-align: center;
+    // border: solid 1px tomato;
+  }
+
+  .menu-list {
+    // border: solid 1px tomato;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+    z-index: 4;
+    margin: 0;
+    list-style: none;
+  }
+
+  @include media-query($on-medium) {
+    .menu-icon {
+      display: inline-block;
+    }
+    .menu-list {
+      display: none;
+    }
+    .menu-list.show {
+      // border: solid 1px tomato;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: calc(100% - (50px + 40px) * 2);
+      margin: 50px;
+      padding: 40px;
+      text-align: left;
+      background-color: $background-color;
+      border-radius: 30px;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 120vh;
+      background-color: $brand-color;
+      opacity: 0.7;
+      z-index: 2;
+    }
+  }
+}
+
+
+//
+// Footer
+//
+.site-footer {
+  // background-color: pink;
+  @extend %wrapper;
+  border-top: 1px solid $border-color-01;
+  @include padding(tb, $spacing-unit);
+  position: relative;
+}
+
+.contact-list,
+.social-media-list{
+  margin-left: 0;
+  list-style: none;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  a {
+    // @include relative-font-size(0.9375);
+    color: $brand-color;
+  }
+}
+
+.footer-col-wrapper {
+  // display: flex;
+  // justify-content: space-between;
+  position: relative;
+}
+
+#to-top-btn {
+  // border: solid 1px aqua;
+  color: $brand-color;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  &:hover {
+    text-decoration: none;
+    i {
+      margin-bottom: $small-font-size / 2;
+    }
+  }
+
+  i {
+    display: block;
+    font-size: $small-font-size * 3;
+    transition: all .3s;
+  }
+  span {
+    display: block;
+    font-size: $small-font-size;
+  }
+}
+
+.copyright {
+  font-size: $small-font-size;
+  text-align: center;
+}
+
+
+//
+// Page content
+//
+.page-content {
+  // background-color: aquamarine;
+  @extend %wrapper;
+  @include padding(tb, $spacing-unit);
+}
+
+.page-heading {
+  @include relative-font-size(2);
+}
+
+//
+// Post list
+//
+.post-list-heading {
+  @include relative-font-size(1.75);
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $brand-color;
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+
+//
+// Posts
+//
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title,
+.post-content h1 {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1.15;
+
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(2.625);
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1, h2, h3 { margin-top: $spacing-unit * 2 }
+  h4, h5, h6 { margin-top: $spacing-unit }
+
+  h2 {
+    @include relative-font-size(1.75);
+
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(2);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.375);
+
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(1.625);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.25);
+  }
+
+  h5 {
+    @include relative-font-size(1.125);
+  }
+
+  h6 {
+    @include relative-font-size(1.0625);
+  }
+}
+
+//
+// JQuery
+//
+.hidden {
+  display: none !important;
+}
+.scroll-lock {
+  overflow: hidden;
+  // scroll bar width
+  // padding-right: 15px; // macOS: safari, chrome
+}
+
+
+// ジグザグ
+@mixin zigzag($color, $height, $position) {
+  @if $position != before and $position != after {
+    @error "$positioin '#{$position}' must be either before or after.";
+  }
+
+  background-color: $color;
+  position: relative;
+
+  &:#{$position} {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: $height;
+    width: 100%;
+
+    $deg: 30deg;
+    $tan: 1 / 1.732;
+
+    // $deg: 45deg;
+    // $tan: 1;
+
+    // $deg: 60deg;
+    // $tan: 1.732;
+
+    $box-h: 2 * $height;
+    $box-w: $box-h / $tan;
+
+    $is-before: if($position == before, true, false);
+
+    @if $is-before {top: -$height;}
+    @else {bottom: -$height;}
+
+    $deg: if($is-before, $deg, 180deg - $deg);
+    $ratio: if($is-before, 50%, 25%);
+
+    background:
+      linear-gradient($deg, $color $ratio, transparent $ratio),
+      linear-gradient(360deg - $deg, $color $ratio, transparent $ratio);
+    background-size: $box-w $box-h;
+  }
+}
+
+.zigzag {
+  @include zigzag(pink, 20px, before);
+  @include zigzag(pink, 20px, after);
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8));
+  min-height: 50px;
+  padding: 10px;
+}

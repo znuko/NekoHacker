@@ -1,0 +1,25 @@
+{%- assign social = site.social_links -%}
+
+<ul class="social-media-list">
+  {% if social.twitter -%}
+  <li>
+    <a href="https://twitter.com/{{ social.twitter }}">
+      <span class="fa-stack">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  {%- endif -%}
+
+  {%- if social.github -%}
+  <li>
+    <a href="https://github.com/{{ social.twitter }}">
+      <span class="fa-stack">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  {%- endif -%}
+</ul>

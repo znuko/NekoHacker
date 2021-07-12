@@ -1,0 +1,57 @@
+title: にゃあ
+description: >-
+  概要
+copyright:
+  year: 2021
+  name: nakasu
+
+author:
+  name:  nakasu
+  email: unkohacker@gmail.com
+
+social_links:
+  twitter: unkohacker
+  github:  unkohacker
+
+disqus:
+  shortname: nuko
+
+baseurl: "/jekyll-template"
+# url    : "http://znuko.github.io"
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+
+
+## 変換対象から除外
+exclude:
+  - .gitignore
+  - bs-config.js
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - Procfile
+  - REAADME.md
+  ## 以下も除外しないとGitHub Actionsでエラーが出る
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+plugins:
+  - jekyll-tidy

@@ -1,0 +1,33 @@
+<footer class="site-footer">
+
+  {%- if site.author %}
+    <ul class="contact-list">
+      {% if site.author.name -%}
+        <li class="p-name">{{ site.author.name | escape }}</li>
+      {% endif -%}
+      {% if site.author.email -%}
+        <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+      {%- endif %}
+    </ul>
+  {%- endif %}
+
+  <div class="social-links">
+    {%- include social.html -%}
+  </div>
+
+  <div class="footer-col-wrapper">
+    <a href="#" id="to-top-btn">
+      <i class="fas fa-caret-square-up"></i>
+      <span>TO TOP</span>
+    </a>
+
+    {%- if site.copyright %}
+      <p class="copyright">
+        {{- '&copy;' -}}
+        {{- site.copyright.year | escape | append: ' ' -}}
+        {{- site.copyright.name | escape -}}
+      </p>
+    {%- endif %}
+  </div>
+
+</footer>
