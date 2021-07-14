@@ -1,0 +1,8 @@
+{% assign id = include.id %}
+{% assign src = id | prepend: "https://www.youtube.com/embed/" %}
+
+{% assign height = include.height |  default: 315 %}
+{% assign width = height | times: 1.7778 %}
+{%- comment -%}{% assign width = include.width | default: 560 %}{%- endcomment -%}
+
+<iframe width="{{ width }}" height="{{ height }}" src="{{ src }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
