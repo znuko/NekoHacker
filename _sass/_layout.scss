@@ -146,7 +146,20 @@
   }
 }
 
+.btn-wrapper.fixed {
+  // border: solid 1px tomato;
+  display: flex;
+  justify-content: flex-end;
+  #to-top-btn {
+    // border: solid 1px pink;
+    position: fixed;
+    bottom: $spacing-unit;
+    right: auto; // reset
+  }
+}
+
 .copyright {
+  // border: solid 1px aqua;
   font-size: $small-font-size;
   text-align: center;
 }
