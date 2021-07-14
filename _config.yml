@@ -1,6 +1,6 @@
-title: にゃあ
+title: Neko Hacker 曲一覧
 description: >-
-  概要
+  Neko Hackerがお関わり遊ばせた楽曲一覧です。非公式です。
 copyright:
   year: 2021
   name: nakasu
@@ -13,11 +13,13 @@ social_links:
   twitter: unkohacker
   github:  unkohacker
 
-disqus:
-  shortname: nuko
+# disqus:
+#   shortname: 
 
-baseurl: "/jekyll-template"
+baseurl: "/nokohacker"
 # url    : "http://znuko.github.io"
+
+skin: dark
 
 collections:
   pages:
@@ -39,6 +41,7 @@ defaults:
 
 ## 変換対象から除外
 exclude:
+  - .github/*
   - .gitignore
   - bs-config.js
   - Gemfile
