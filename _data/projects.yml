@@ -1,0 +1,262 @@
+- title: Chocolate Adventure feat. ななひら
+  type: Single
+  release: 2019-02-14
+  numbering: 1st
+
+- title: Home Sweet Home feat. KMNZ LIZ
+  type: Single
+  release: 2019-04-20
+  numbering: 2nd
+
+- title: ガチで恋するお前らへ feat. うごくちゃん
+  type: Single
+  release: 2019-09-01
+  numbering: 3rd
+
+- title: One by One feat. KMNZ LIZ
+  type: Single
+  release: 2020-06-12
+  numbering: 4th
+
+- title: 曖昧サイボーグ feat. うごくちゃん & JungMato
+  type: Single
+  release: 2020-06-30
+  numbering: 5th
+
+
+- title: Neko Hacker
+  type: Albam
+  release: 2020-01-15
+  numbering: 1st
+  music:
+    - title: From Zero feat. 利香
+      test: にゃあ
+    - title: くいしんぼハッカー feat. くいしんぼあかちゃん
+    - title: Home Sweet Home feat. KMNZ LIZ
+    - title: Hack You feat. うごくちゃん
+    - title: Daydream feat. mega & Sithu Aye
+    - title: Sweet Dreams feat. 利香
+    - title: Circulation
+    - title: Erased feat. YuNi
+    - title: ガチで恋するお前らへ feat. うごくちゃん
+    - title: Night Sky feat. Mashilo & ichika
+    - title: Chocolate Adventure feat. ななひら
+    - title: Rainbow In The Dark feat. 利香
+
+- title: Stray
+  type: Albam
+  release: 2021-07-14
+  numbering: 2nd
+  music:
+    - title: "進め!むじなカンパニー (Album ver.) feat. 六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花)"
+    - title: ピポピポ -People People- feat. ななひら
+    - title: シラズシラズ feat. KMNZ LIZ
+    - title: だーいすきだよ feat. をとは
+    - title: Sidewalks feat. Mashilo
+    - title: I Don't Care feat. ななひら
+    - title: "けーきりろん (Album ver.) feat. 六科なじむ (CV: 日高里菜)"
+    - title: Take A Nap feat. Mochari
+    - title: I Remember You feat. 白針うに
+    - title: Shadows feat. Such
+    - title: 曖昧サイボーグ feat. うごくちゃん & JungMato
+    - title: Across The Boundary
+    - title: Sleep Tight feat. まこと
+    - title: 命 (仮歌)
+
+
+- title: from-zero
+  type: EP
+  release: 2018-03-11
+  numbering: 1st
+  music:
+    - title: Sweet Dreams feat. 利香
+    - title: From Zero feat. 利香
+    - title: Sweet Dreams (Instrumental)
+    - title: From Zero (Instrumental)
+
+- title: SUMMER!
+  type: EP
+  release: 2018-07-10
+  numbering: 2nd
+  music:
+    - title: Daydream feat. mega & Sithu Aye
+    - title: Night Sky feat. Mashilo & ichika
+    - title: Daydream (Instrumental)
+    - title: Night Sky (Instrumental)
+
+- title: Reincarnation
+  type: EP
+  release: 2020-03-14
+  numbering: 3rd
+  music:
+    - title: Pictures feat. 4s4ki
+    - title: Sigh feat. をとは
+    - title: Shadows feat. Such
+    - title: Moonlight feat. ぷにぷに電機
+
+- title: Isekai Travel
+  type: EP
+  release: 2020-11-01
+  numbering: 4th
+  music:
+    - title: I Don't Care feat. ななひら
+    - title: Fly High feat. mochari
+    - title: Listen feat. をとは
+    - title: Isekai Market feat. ななひら, mochari & をとは
+
+
+- title: 未来茶屋 vol.0
+  type: 参加作品
+  release: 2019-01-12
+  music:
+    - title: くいしんぼハッカー feat. くいしんぼあかちゃん
+
+- title: IMAGINATION vol.1
+  type: 参加作品
+  release: 2019-03-01
+  music:
+    - title: God knows…
+
+- title: 未来茶屋 vol.1
+  type: 参加作品
+  release: 2019-04-17
+  music:
+    - title: Hack You feat. うごくちゃん
+
+- title: 未来茶屋 vol.2
+  type: 参加作品
+  release: 2019-10-16
+  music:
+    - title: Erased feat. YuNi
+    - title: Peaceful Time (Matcha Land & Neko Hacker)
+
+
+- title: てをつなごう
+  type: 虹河ラキ×TOKYOWAVE! Feat.Neko Hacker
+  release: 2019-09-27
+  numbering: 第1弾
+
+- title: ほしがふるよる
+  type: 虹河ラキ×TOKYOWAVE! Feat.Neko Hacker
+  release: 2019-10-31
+  numbering: 第2弾
+
+- title: そばにいる
+  type: 虹河ラキ×TOKYOWAVE! Feat.Neko Hacker
+  release: 2019-11-29
+  numbering: 第3弾
+
+- title: スタンバイ
+  type: 虹河ラキ×TOKYOWAVE! Feat.Neko Hacker
+  release: 2020-02-07
+  numbering: 第4弾
+
+- title: どれみのじゅもん
+  type: 虹河ラキ×TOKYOWAVE! Feat.Neko Hacker
+  release: 2020-11-12
+  numbering: 第5弾
+
+- title: ありがとう
+  type: 虹河ラキ×TOKYOWAVE! Feat.Neko Hacker
+  release: 2020-11-19
+  numbering: 第6弾
+
+
+- title: ケセラセラ
+  type: 楽曲提供
+  artists:
+    - type: albam artist
+      name: Re:A projecT
+    - type: lyric
+      name: Neko Hacker
+    - type: creator
+      name: Neko Hacker
+  release: 
+
+- title: Shuwa*Shuwa Parfait
+  type: 楽曲提供
+  artists:
+    - type: albam artist
+      name: ななひら
+    - type: lyric
+      name: Neko Hacker
+    - type: creator
+      name: Neko Hacker
+  release: 
+
+- title: Magical Girl
+  type: 楽曲提供
+  artists:
+    - type: albam artist
+      name: ななひら
+    - type: lyric
+      name: Neko Hacker
+    - type: creator
+      name: Neko Hacker
+  release: 
+
+- title: Doki Doki Virus
+  type: 楽曲提供
+  artists:
+    - type: albam artist
+      name: ななひら×mega
+    - type: lyric
+      name: Neko Hacker
+    - type: creator
+      name: Neko Hacker
+  release: 
+
+- title: Digital Life Hacker
+  type: 楽曲提供
+  artists:
+    - type: albam artist
+      name: をとは
+    - type: lyric
+      name: Neko Hacker
+    - type: creator
+      name: Neko Hacker
+  release: 
+
+- title: CIDER
+  type: 楽曲提供
+  artists:
+    - type: albam artist
+      name: あさましお
+    - type: lyric
+      name: Neko Hacker
+    - type: creator
+      name: Neko Hacker
+  release: 
+
+- title: トーキョーアイデンティティー
+  type: 楽曲提供
+  artists:
+    - type: albam artist
+      name: CY8ER
+    - type: lyric
+      name: Neko Hacker
+    - type: creator
+      name: Neko Hacker
+  release: 
+
+- title: For The Win
+  type: 楽曲提供
+  artists:
+    - type: albam artist
+      name: 湊あくあ
+    - type: lyric
+      name: Neko Hacker
+    - type: creator
+      name: Neko Hacker
+  release: 
+
+- title: 進め! むじなカンパニー
+  type: タイアップ
+  artists:
+    - type: albam artist
+      name: テレビアニメ「幼女社長」
+    - type: lyric
+      name: Neko Hacker
+    - type: creator
+      name: Neko Hacker
+  release: 

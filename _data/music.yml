@@ -1,0 +1,335 @@
+- title: てすと
+  artists:
+    - type: vocal
+      name: 虹河ラキ
+    - type: music
+      name: Neko Hacker
+  source:
+    youtube: IZ45CJEFO1M
+  thumbnail: 
+  covers:
+    - title: おじさんカバー
+      artists:
+        - type: vocal
+          name: おっさん
+        - type: music
+          name: Neko Hacker
+
+
+- title: O108ROCKET
+  artists:
+    - type: vocal
+      name: をとは
+    - type: lyric
+      name: をとは
+    - type: music
+      name: Neko Hacker
+    - type: sound_engineer
+      name: NNZN
+
+
+##
+
+- title: Chocolate Adventure
+  official_title: Chocolate Adventure feat. ななひら
+  artists:
+    - type: vocal
+      name: ななひら
+    - type: music
+      name: Neko Hacker
+
+- title: Home Sweet Home
+  official_title: Home Sweet Home feat. KMNZ LIZ
+  artists:
+    - type: vocal
+      name: KMNZ LIZ
+    - type: music
+      name: Neko Hacker
+
+- title: ガチで恋するお前らへ
+  official_title: ガチで恋するお前らへ feat. うごくちゃん
+  artists:
+    - type: vocal
+      name: うごくちゃん
+    - type: music
+      name: Neko Hacker
+
+- title: One by One
+  official_title: One by One feat. KMNZ LIZ
+  artists:
+    - type: vocal
+      name: KMNZ LIZ
+    - type: music
+      name: Neko Hacker
+
+- title: 曖昧サイボーグ
+  official_title: 曖昧サイボーグ feat. うごくちゃん & JungMato
+  artists:
+    - type: vocal
+      name: うごくちゃん
+    - type: guitar
+      name: JungMato
+    - type: music
+      name: Neko Hacker
+
+- title: From Zero
+  official_title: From Zero feat. 利香
+  artists:
+    - type: vocal
+      name: 利香
+
+- title: くいしんぼハッカー
+  official_title: くいしんぼハッカー feat. くいしんぼあかちゃん
+  artists:
+    - type: vocal
+      name: くいしんぼあかちゃん
+
+# - title: Home Sweet Home feat. KMNZ LIZ
+#   official_title: Home Sweet Home feat. KMNZ LIZ
+
+- title: Hack You
+  official_title: Hack You feat. うごくちゃん
+  artists:
+    - type: vocal
+      name: うごくちゃん
+
+- title: Daydream
+  official_title: Daydream feat. mega & Sithu Aye
+  artists:
+    - type: vocal
+      name: mega
+    - type: guitar
+      name: Sithu Aye
+
+- title: Sweet Dreams
+  official_title: Sweet Dreams feat. 利香
+  artists:
+    - type: vocal
+      name: 利香
+
+- title: Circulation
+  official_title: Circulation
+  artists: 
+
+
+- title: Erased
+  official_title: Erased feat. YuNi
+  artists:
+    - type: vocal
+      name: YuNi
+
+# - title: ガチで恋するお前らへ feat. うごくちゃん
+#   official_title: ガチで恋するお前らへ feat. うごくちゃん
+
+- title: Night Sky
+  official_title: Night Sky feat. Mashilo & ichika
+  artists:
+    - type: vocal
+      name: Mashilo
+    - type: guitar
+      name: ichika
+
+# - title: Chocolate Adventure feat. ななひら
+#   official_title: Chocolate Adventure feat. ななひら
+
+- title: Rainbow In The Dark
+  official_title: Rainbow In The Dark feat. 利香
+  artists:
+    - type: vocal
+      name: 利香
+
+- title: 進め! むじなカンパニー
+  official_title: "進め! むじなカンパニー (Album ver.) feat. 六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花)"
+  artists:
+    - type: vocal
+      name: "六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花)"
+
+- title: ピポピポ -People People-
+  official_title: ピポピポ -People People- feat. ななひら
+  artists:
+    - type: vocal
+      name: ななひら
+
+- title: シラズシラズ
+  official_title: シラズシラズ feat. KMNZ LIZ
+  artists:
+    - type: vocal
+      name: KMNZ LIZ
+
+- title: だーいすきだよ
+  official_title: だーいすきだよ feat. をとは
+  artists:
+    - type: vocal
+      name: をとは
+
+- title: Sidewalks
+  official_title: Sidewalks feat. Mashilo
+  artists:
+    - type: vocal
+      name: Mashilo
+
+- title: I Don't Care feat. ななひら
+  official_title: I Don't Care feat. ななひら
+  artists:
+    - type: vocal
+      name: ななひら
+
+- title: けーきりろん
+  official_title: "けーきりろん (Album ver.) feat. 六科なじむ (CV: 日高里菜)"
+  artists:
+    - type: vocal
+      name: "六科なじむ (CV: 日高里菜)"
+
+- title: Take A Nap
+  official_title: Take A Nap feat. Mochari
+  artists:
+    - type: vocal
+      name: Mochari
+
+- title: I Remember You
+  official_title: I Remember You feat. 白針うに
+  artists:
+    - type: vocal
+      name: 白針うに
+
+- title: Shadows
+  official_title: Shadows feat. Such
+  artists:
+    - type: music
+      name: Neko Hacker
+    - type: vocal
+      name: Such
+  mv:
+    youtube: HpMF36XVzbI
+    artists:
+      - type: movie
+        name: ふにゃ
+      - type: sound engineer
+      - name: NNZN
+
+# - title: 曖昧サイボーグ feat. うごくちゃん & JungMato
+
+- title: Across The Boundary
+  official_title: Across The Boundary
+
+- title: Sleep Tight
+  official_title: Sleep Tight feat. まこと
+  artists:
+    - type: vocal
+      name: まこと
+
+- title: 命 (仮歌)
+  official_title: 命 (仮歌)
+  artists:
+    - type: vocal
+      name: 
+
+- title: Pictures
+  official_title: Pictures feat. 4s4ki
+  artists:
+    - type: vocal
+      name: 4s4ki
+
+- title: Sigh
+  official_title: Sigh feat. をとは
+  artists:
+    - type: vocal
+      name: をとは
+
+- title: Moonlight
+  official_title: Moonlight feat. ぷにぷに電機
+  artists:
+    - type: vocal
+      name: ぷにぷに電機
+
+- title: Fly High
+  official_title: Fly High feat. mochari
+  artists:
+    - type: vocal
+      name: mochari
+
+- title: Listen
+  official_title: Listen feat. をとは
+  artists:
+    - type: vocal
+      name: をとは
+
+- title: Isekai Market
+  official_title: Isekai Market feat. ななひら, mochari & をとは
+  artists:
+    - type: vocal
+      name: ななひら
+    - type: vocal
+      name: mochari
+    - type: vocal
+      name: をとは
+
+- title: God knows…
+  official_title: God knows…
+  artists:
+    - type: vocal
+      name: 
+
+- title: Peaceful Time
+  official_title: Peaceful Time (Matcha Land & Neko Hacker)
+  artists:
+    - type: vocal
+      name: 
+
+- title: てをつなごう
+  official_title:
+  artists:
+    - type: vocal
+      name: 虹河ラキ
+    - type: music
+      name: Neko Hacker
+
+- title: ほしがふるよる
+  official_title: 
+  artists:
+    - type: vocal
+      name: 虹河ラキ
+    - type: music
+      name: Neko Hacker
+
+- title: そばにいる
+  official_title: 
+  artists:
+    - type: vocal
+      name: 虹河ラキ
+    - type: music
+      name: Neko Hacker
+
+- title: スタンバイ
+  official_title: 
+  artists:
+    - type: vocal
+      name: 虹河ラキ
+    - type: music
+      name: Neko Hacker
+
+- title: どれみのじゅもん
+  official_title: 
+  artists:
+    - type: vocal
+      name: 虹河ラキ
+    - type: music
+      name: Neko Hacker
+  source:
+    youtube: IZ45CJEFO1M
+
+- title: ありがとう
+  official_title: 
+  artists:
+    - type: vocal
+      name: 虹河ラキ
+    - type: music
+      name: Neko Hacker
+
+
+
+
+
+
+
+
