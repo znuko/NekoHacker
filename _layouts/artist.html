@@ -1,0 +1,148 @@
+---
+layout: default
+---
+
+{{ content }}
+
+
+<h1>あーてぃすと</h1>
+
+{%- comment -%}
+  site.data.musicで書かれているartist.nameを全て抽出
+{%- endcomment -%}
+{% assign no_artists_music = nil | split: "" %}
+{% assign no_artist_name_music = nil | split: "" %}
+
+{% for music in site.data.music %}
+
+  {%- comment -%}
+    music.artistsがないmusicを除去
+  {%- endcomment -%}
+  {% if music.artists == nil %}
+    {% assign no_artists_music = music | concat: no_artists_music %}
+    {% continue %}
+  {% endif %}
+
+  {%- comment -%}
+    artist.nameがないmusicを除去
+  {%- endcomment -%}
+  {% assign break_loop = false %}
+  {% for artist in music.artists %}
+    {% if artist.name == nil %}
+      {% assign break_loop = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% if break_loop == true %}
+    {% assign no_artist_name_music = music | concat: no_artist_name_music %}
+    {% continue %}
+  {% endif %}
+
+  {% assign artist_names_part = music.artists | map: "name" %}
+  {% assign artist_names = artist_names | concat: artist_names_part %}
+
+{% endfor %}
+
+{% assign all_artist_names = artist_names | uniq %}
+
+<br>no artists: {{ no_artists_music | map: "title" | join: ", " }}
+<br>no tartist_name: {{ no_artist_name_music | map: "title" | join: ", " }}
+
+
+
+
+
+
+{% for artist_name in all_artist_names %}
+
+{% assign artist_array = site.data.artists | where: "name", artist_name %}
+
+
+{% case artist_array.size %}
+  {% when 1 %}
+    {% assign is_artist_data = true %}
+    {% assign artist = artist_array[0] %}
+  {% when 0 %}
+    {% assign is_artist_data = false %}
+  {% else %}
+    {% assign is_artist_data = false %}
+    <h2 style="border-color: red;">大変だ！ size={{ artist_array.size }}</h2>
+    {% continue %}
+{% endcase %}
+
+{% assign option = "" %}
+{% unless is_artist_data %}
+  {% assign option = 'style="border-color: blue;"' | prepend: " " %}
+{% endunless %}
+
+{% assign artist_id = artist.id | default: artist_name | replace: " ", "_" %}
+<h2 id="{{ artist_id }}" {{- option -}}>{{ artist_name }}</h2>
+
+{% unless is_artist_data %}
+  <p>No {{ artist_name }}'s data in artists.yml file.</p>
+{% endunless %}
+
+
+{% if artist.social %}
+  <h3>SNS</h3>
+  {% include social.html src=artist.social %}
+{% endif %}
+
+
+<h3>曲</h3>
+<ul>
+  {% assign filtered_music = nil | split: "" %}
+  {% assign filtered_music2 = nil %}
+  {% for music in site.data.music %}
+    {% assign music_artist_names = music.artists | map: "name" %}
+    {% if music_artist_names contains artist_name %}
+
+    {%- comment -%}
+      {% assign filtered_music_part = site.data.music | where: "title", music.title %}
+      {% assign filtered_music2 = filtered_music2 | concat: filtered_music_part %}
+    {%- endcomment -%}
+
+      {% assign filtered_music = music | concat: filtered_music %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign filtered_music = filtered_music | reverse %}
+  {% for music in filtered_music %}
+    <li>{{ music.title }}</li>
+  {% endfor %}
+  {%- comment -%}
+    <br>OR<br>
+    {% for music in filtered_music2 %}
+      <li>{{ music.title }}</li>
+    {% endfor %}
+  {%- endcomment -%}
+
+</ul>
+
+{%- comment -%}
+  <ul>
+    {% for music in site.data.music %}
+      {% for music_artist in music.artists %}
+        {% if music_artist.name == artist.name %}
+          <li>{{ music.title }}</li>
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{%- endcomment -%}
+
+{%- comment -%}
+  <ul>
+    {% for music in site.data.music %}
+      {% assign music_artist_names = music.artists | map: "name" %}
+      {% if music_artist_names contains artist.name %}
+        <li>{{ music.title }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{%- endcomment -%}
+
+<!--  -->
+
+{% endfor %}

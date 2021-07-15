@@ -1,3 +1,4 @@
+{%- comment -%}
 {%- assign social = site.social_links -%}
 
 <ul class="social-media-list">
@@ -22,4 +23,27 @@
     </a>
   </li>
   {%- endif -%}
+</ul>
+{%- endcomment -%}
+
+{% assign social_accounts = include.src %}
+
+{% capture services %}
+  homepage
+  twitter
+  youtube
+  tiktok
+  wikipedia
+  fanbox
+  linktree
+{% endcapture %}
+{% assign services = services | split: " " %}
+
+<ul>
+  {% for service in services %}
+    {% assign account = social_accounts | map: service | join: "" %}
+    {% if account != empty %}
+      <li>{{ service }}: {{ account }}</li>
+    {% endif %}
+  {% endfor %}
 </ul>

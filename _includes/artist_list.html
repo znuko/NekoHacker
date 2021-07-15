@@ -1,0 +1,25 @@
+{% assign music = include.music %}
+{% assign artist_url = "/artist" %}
+
+<ul>
+  {% for artist in music.artists %}
+
+    {% for registered_artist in site.data.artists %}
+      {% if registered_artist.name == artist.name %}
+        {% assign is_registered = true %}
+        {% break %}
+      {% else %}
+        {% assign is_registered = false %}
+      {% endif %}
+    {% endfor %}
+
+    {% if is_registered == true %}
+      {% assign artist_id = registered_artist.id | default: artist.name | replace: " ", "_" %}
+      {% assign artist_link = artist_url | append: "#" | append: artist_id | relative_url %}
+      <li>{{ artist.type }}: <a href="{{ artist_link }}">{{ artist.name }}</a></li>
+    {% else %}
+      <li>{{ artist.type }}: {{ artist.name }}</li>
+    {% endif %}
+    
+  {% endfor %}
+</ul>

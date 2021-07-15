@@ -1,0 +1,76 @@
+
+
+{%- comment -%}
+{% assign items = include.items %}
+{% assign item_url = "/" %}
+
+{% assign registering = site.data.music %}
+<ul>
+  {% for item in items %}
+
+    {% for registered_item in registering %}
+      {% assign registered_item_val = registered_item | map: "title" %}
+      {% assign item_val = item | map: "title" %}
+      {% if registered_item_val == item_val %}
+        {% assign is_registered = true %}
+        {% break %}
+      {% else %}
+        {% assign is_registered = false %}
+      {% endif %}
+    {% endfor %}
+
+    {% if is_registered == true %}
+      {% assign item_id = registered_item.id | default: item_val | replace: " ", "_" %}
+      {% assign item_link = item_url | append: "#" | append: item_id | relative_url %}
+      <li>{{ item.type }}: <a href="{{ item_link }}">{{ item_val }}</a></li>
+    {% else %}
+      <li>{{ item.type }}: {{ item.title }}</li>
+    {% endif %}
+    
+  {% endfor %}
+</ul>
+{%- endcomment -%}
+
+
+{% assign item = include.item %}
+{% assign item_url = include.item_url %}
+{% assign item_key = include.item_key %}
+
+{% assign registered_items = include.registered_items | default: site.data.music %}
+{% assign registered_item_key = include.registered_item_key | default: item_key %}
+{% assign registered_item_key_sub = include.registered_item_key_sub | default: item_key %}
+
+{% for registered_item in registered_items %}
+{%- comment -%}
+  {% assign registered_item_val = registered_item | map: registered_item_key | join: "" %}
+  {% if registered_item_val == empty and registered_item_key != registered_item_key_sub %}
+    {% assign registered_item_val = registered_item | map: registered_item_key_sub | join: "" %}
+  {% endif %}
+{%- endcomment -%}
+
+  {% capture keys %}{{ registered_item_key }}|{{ registered_item_key_sub }}{% endcapture %}
+  {% assign keys = keys | split: "|" | uniq %}
+  {% assign vals = nil %}
+  {% for key in keys %}
+    {% assign val = registered_item | map: key %}
+    {% assign vals = vals | concat: val %}
+  {% endfor %}
+  
+  {% assign registered_item_vals = vals %}
+  {% assign item_val = item | map: item_key | join: "" %}
+
+  {% if registered_item_vals contains item_val %}
+    {% assign is_registered = true %}
+    {% break %}
+  {% else %}
+    {% assign is_registered = false %}
+  {% endif %}
+{% endfor %}
+
+{% if is_registered == true %}
+  {% assign item_id = registered_item.id | default: item_val | replace: " ", "_" %}
+  {% assign item_link = item_url | append: "#" | append: item_id | relative_url %}
+  <a href="{{ item_link }}">{{ item_val }}</a>
+{% else %}
+  {{ item.title }}
+{% endif %}

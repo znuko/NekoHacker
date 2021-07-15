@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h1>{{ page.title }}</h1>
+
+{%- comment -%}
+  projectのtypeの種類を抽出
+{%- endcomment -%}
+{% capture types_list %}
+  {%- for project in site.data.projects -%}
+    |{{project.type}}
+  {%- endfor -%}
+{% endcapture %}
+{% assign types = types_list | remove_first: "|" | split: "|" | uniq %}
+
+{%- comment -%}
+  typeごとに、projectを出力
+{%- endcomment -%}
+{% for type in types %}
+  <h2>{{ type | escape }}</h2>
+  {% assign projects = site.data.projects | where: "type", type %}
+  {% for project in projects %}
+    <h3>{{ project.title | escape }}</h3>
+    {%- comment -%}
+    <ul>
+      {% for track in project.music %}
+        {% assign music_id = track.id | default: track.title | replace: " ", "_" %}
+          {% assign music_link = "/" | append: "#" | append: music_id %}
+        <li><a href="{{ music_link }}">{{ track.title | escape }}</a></li>
+      {% endfor %}
+    </ul>
+    {%- endcomment -%}
+    
+    <ul>
+      {%- comment -%}
+        traks := project.music
+        if no project.music, then track.title := project.title
+      {%- endcomment -%}
+      {% assign emp_array = nil | split: "" %}
+      {% assign default_tracks = project | concat: emp_array %}
+      {% assign tracks = project.music | default: default_tracks %}
+
+      {% for track in tracks %}
+        <li>
+          {% include link_list.html item=track item_url="/" item_key="title" registered_item_key="official_title" %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+{% endfor %}
+
+
+

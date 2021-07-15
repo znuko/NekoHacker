@@ -3,3 +3,85 @@ layout: default
 ---
 
 {{ content }}
+
+<h1>Music</h1>
+
+<p>Filter</p>
+
+
+
+{%- for music in site.data.music %}
+
+<!-- {% assign music_id = music.id | default: music.title | replace: " ", "_" %} -->
+{% assign music_id = music.title | replace: " ", "_" %}
+<h2 id="{{ music_id }}">{{ music.title | escape }}</h2>
+
+<h3>Artists</h3>
+{% include artist_list.html music=music %}
+
+
+{%- comment -%}
+  <ul>
+    {% for artist in music.artists %}
+      <li>
+        {% include link_list.html item=artist item_url="/artist" item_key="name" registered_items=site.data.artists %}
+      </li>
+    {% endfor %}
+  </ul>
+{%- endcomment -%}
+
+
+{% if music.covers %}
+  <h3>カバー</h3>
+  {% for cover_music in music.covers %}
+    <ul>
+      <li>{{ cover_music.title }}</li>
+      <ul>
+        <li>Artists</li>
+        {% include artist_list.html music=cover_music %}
+      </ul>
+    </ul>
+  {% endfor %}
+{% endif %}
+
+
+{% assign filtered_projects = nil %}
+{% for project in site.data.projects %}
+  {% assign track_titles = project.music | map: "title" %}
+  {% if track_titles contains music.official_title %}
+    {% assign filtered_projects_parts = site.data.projects | where: "title", project.title %}
+    {% assign filtered_projects = filtered_projects | concat: filtered_projects_parts %}
+  {% endif %}
+{% endfor %}
+{% assign projects = filtered_projects %}
+
+{% if music.official_title and projects != empty %}
+  <h3>Projects</h3>
+  <ul>
+    {% for project in projects %}
+      <li>{{ project.release | date: "%Y年%-m月%-d日" }} | {{ project.type }}: {{ project.title }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+{% if music.source.youtube %}
+  <h3>Youtube</h3>
+  {% include youtube.html id=music.source.youtube height=200 %}
+{% endif %}
+  
+  
+{%- endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
