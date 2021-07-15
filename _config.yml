@@ -41,7 +41,8 @@ defaults:
 
 ## 変換対象から除外
 exclude:
-  - .github/*
+  - _plugins/
+  - .github/
   - .gitignore
   - bs-config.js
   - Gemfile

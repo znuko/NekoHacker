@@ -1,31 +1,34 @@
-- title: てすと
-  artists:
-    - type: vocal
-      name: 虹河ラキ
-    - type: music
-      name: Neko Hacker
-  source:
-    youtube: IZ45CJEFO1M
-  thumbnail: 
-  covers:
-    - title: おじさんカバー
-      artists:
-        - type: vocal
-          name: おっさん
-        - type: music
-          name: Neko Hacker
+# - short_title: てすと
+#   title: てすと feat. にゃんこ # official_title
+#   artists:
+#     - type: vocal
+#       name: にゃんこ
+#     - type: music
+#       name: にゃんこハッカー
+#   source:
+#     - name: youtube
+#       id: IZ45CJEFO1M
+#       release: 2021-07-16
+#     - name: nico
+#   covers:
+#     - title: おじさんカバー
+#       cover_artists:
+#         - type: vocal
+#           name: おっさん
+#   # sort_num: <- 自動生成
+#   # thumbnails: <- 自動生成
 
 
-- title: O108ROCKET
-  artists:
-    - type: vocal
-      name: をとは
-    - type: lyric
-      name: をとは
-    - type: music
-      name: Neko Hacker
-    - type: sound_engineer
-      name: NNZN
+# - title: O108ROCKET
+#   artists:
+#     - type: vocal
+#       name: をとは
+#     - type: lyric
+#       name: をとは
+#     - type: music
+#       name: Neko Hacker
+#     - type: sound_engineer
+#       name: NNZN
 
 
 ##

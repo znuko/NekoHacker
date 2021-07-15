@@ -6,9 +6,6 @@ layout: default
 
 <h1>Music</h1>
 
-<p>Filter</p>
-
-
 
 {%- for music in site.data.music %}
 
@@ -16,9 +13,19 @@ layout: default
 {% assign music_id = music.title | replace: " ", "_" %}
 <h2 id="{{ music_id }}">{{ music.title | escape }}</h2>
 
+{% if music.releases != empty %}
+  <h3>リリース日</h3>
+  <ul>
+    {% for release in music.releases %}
+      <li>{{ release }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<p>first: {{music.release_first}}</p>
+
 <h3>Artists</h3>
 {% include artist_list.html music=music %}
-
 
 {%- comment -%}
   <ul>
