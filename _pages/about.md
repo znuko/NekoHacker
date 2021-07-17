@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: /about
+permalink: /about/
 ---
 
 管理人の情報

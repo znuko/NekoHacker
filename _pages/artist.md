@@ -1,6 +1,6 @@
 ---
 layout: artist
-permalink: /artist
+permalink: /artist/
 ---
 
 
