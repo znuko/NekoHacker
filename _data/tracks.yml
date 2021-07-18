@@ -1,0 +1,609 @@
+# - short_title: てすと
+#   title: てすと feat. にゃんこ # title
+#   artist: Neko Hacker
+#   albams: # ディスコグラフィ
+#     - title:
+#   creators:
+#     - role: vocal
+#       name: にゃんこ
+#     - role: music
+#       name: にゃんこハッカー
+#   source:
+#     - name: youtube
+#       id: IZ45CJEFO1M
+#       release: 2021-07-16
+#     - name: nico
+#   covers:
+#     - short_title: おじさんカバー
+#       cover_artists:
+#         - role: vocal
+#           name: おっさん
+#   # sort_num: <- 自動生成
+#   # thumbnails: <- 自動生成
+
+
+## type -> role
+
+
+
+
+##
+
+- short_title: Chocolate Adventure
+  title: Chocolate Adventure feat. ななひら
+  artists:
+    - role: vocal
+      name: ななひら
+    - role: music
+      name: Neko Hacker
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=M1jTgXgEPFo
+    - site: youtube
+      url: https://www.youtube.com/watch?v=mXUbv6wu-9w
+
+- short_title: Home Sweet Home
+  title: Home Sweet Home feat. KMNZ LIZ
+  artists:
+    - role: vocal
+      name: KMNZ LIZ
+    - role: music
+      name: Neko Hacker
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=tE-J5q8OCF0
+      art: せいまんぬ
+
+- short_title: ガチで恋するお前らへ
+  title: ガチで恋するお前らへ feat. うごくちゃん
+  artists:
+    - role: vocal
+      name: うごくちゃん
+    - role: music
+      name: Neko Hacker
+    - role: illustrator
+      name: きあと
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=Fj44MD1lRcc
+
+- short_title: One by One
+  title: One by One feat. KMNZ LIZ
+  artists:
+    - role: vocal
+      name: KMNZ LIZ
+    - role:
+      name: KOTONOHOUSE
+    - role: #music
+      name: Neko Hacker
+    - role: Art
+      name: せいまんぬ
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=t3u6fo4EVJU
+
+- short_title: 曖昧サイボーグ
+  title: 曖昧サイボーグ feat. うごくちゃん & JungMato
+  artists:
+    - role: music
+      name: Neko Hacker
+    - role: vocal
+      name: うごくちゃん
+    - role: Guitar Solo
+      name: JungMato
+    - role: Artwork
+      name: きあと
+    - role: Sound Engineer
+      name: NNZN
+    - role: Movie
+      name: ふにゃ
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=PJhF-fRr8VU
+
+- short_title: From Zero
+  title: From Zero feat. 利香
+  artists:
+    - role: music
+      name: Neko Hacker
+    - role: vocal
+      name: 利香
+    - role: illustrator
+      name: ずほ
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=GoLyPUxbUC0
+
+- short_title: くいしんぼハッカー
+  title: くいしんぼハッカー feat. くいしんぼあかちゃん
+  artists:
+    - role: music
+      name: Neko Hacker
+    - role: vocal
+      name: くいしんぼあかちゃん
+    - role: Illustrator
+      name: きあと
+    - role: Animation
+      name: ふにゃ
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=o1e9hdMjUi0
+
+- short_title: Hack You
+  title: Hack You feat. うごくちゃん
+  artists:
+    - role: music
+      name: Neko Hacker
+    - role: vocal
+      name: うごくちゃん
+    - role: illustrator
+      name: きあと
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=SkJAZuSewGA
+
+- short_title: Daydream
+  title: Daydream feat. mega & Sithu Aye
+  artists:
+    - role: music
+      name: Neko Hacker
+    - role: vocal
+      name: mega
+    - role: Guitar Solo
+      name: Sithu Aye
+    - role: Actress
+      neme: てらたぬ。
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=U2MMi7BOLjc
+
+- short_title: Sweet Dreams
+  title: Sweet Dreams feat. 利香
+  artists:
+    - role: vocal
+      name: 利香
+    - role: Track Making & Guitar
+      name: Sera https://twitter.com/sera1250
+    - role: Melody Making
+      name: Sho
+    - role: Lyrics
+      name: Sho
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=1-EXve5UN4Q
+
+
+
+- short_title: Circulation
+  title: Circulation
+  artists:
+    - role: music
+      name: Neko Hacker
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=b7d0DpKheDE
+      note: Provided to YouTube by TuneCore Japan
+
+- short_title: Erased
+  title: Erased feat. YuNi
+  artists:
+    - role: vocal
+      name: YuNi
+    - role: Sound Engineer
+      name: NNZN
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=rMOIaJGI_RY
+
+- short_title: Night Sky
+  title: Night Sky feat. Mashilo & ichika
+  artists:
+    - role: vocal
+      name: Mashilo
+    - role: Guitar Solo
+      name: ichika
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=QfFhuCbCKu4
+
+- short_title: Rainbow In The Dark
+  title: Rainbow In The Dark feat. 利香
+  artists:
+    - role: vocal
+      name: 利香
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=m9Q-KwovLE8
+      note: Provided to YouTube by TuneCore Japan
+
+- short_title: ピポピポ -People People-
+  title: ピポピポ -People People- feat. ななひら
+  artists:
+    - role: vocal
+      name: ななひら
+    - roles: [illustrator, animation]
+      name: をとは
+    - role: sound engineer
+      name: NNZN
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=qyY3UhQhZK4
+
+- short_title: シラズシラズ
+  title: シラズシラズ feat. KMNZ LIZ
+  artists:
+    - role: vocal
+      name: KMNZ LIZ
+    - role: Art
+      name: せいまんぬ
+    - role: Sound Engineer
+      name: NNZN
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=Vz_kj1jeGcg
+
+- short_title: だーいすきだよ
+  title: だーいすきだよ feat. をとは
+  artists:
+    - role: vocal
+      name: をとは
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=kkQSl6LblUQ
+      note: Auto-generated by YouTube
+
+- short_title: Sidewalks
+  title: Sidewalks feat. Mashilo
+  artists:
+    - role: vocal
+      name: Mashilo
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=h6jkD7hFg4Q
+      note: Auto-generated by YouTube
+
+- short_title: I Don't Care feat. ななひら
+  title: I Don't Care feat. ななひら
+  artists:
+    - role: vocal
+      name: ななひら
+    - role:
+      name: NNZN
+    - roles: [Lyric]
+      name: Neko Hacker
+    - role: Artwork
+      name: ずほ
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=h5wRTI5BYk0
+      note: Auto-generated by YouTube
+
+- short_title: Take A Nap
+  title: Take A Nap feat. mochari
+  artists:
+    - role: vocal
+      name: mochari
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=Sguno16kn7w
+      note: Auto-generated by YouTube
+
+- short_title: I Remember You
+  title: I Remember You feat. 白針うに
+  artists:
+    - role: vocal
+      name: 白針うに
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=ZJA-c_cOGI0
+      note: Auto-generated by YouTube
+
+- short_title: Shadows
+  title: Shadows feat. Such
+  artists:
+    - role: music
+      name: Neko Hacker
+    - role: vocal
+      name: Such
+    - role: sound engineer
+      name: NNZN
+    - role: movie
+      name: ふにゃ
+  sources:
+    - site: youtube
+      id: HpMF36XVzbI
+      is_mv: true
+
+
+
+- short_title: Across The Boundary
+  title: Across The Boundary
+  # sources:
+  #   - site: youtube
+  #     id: 
+
+- short_title: Sleep Tight
+  title: Sleep Tight feat. まこと
+  artists:
+    - role: vocal
+      name: まこと
+    - role: illustrator
+      name: をとは
+    - role: animator
+      name: ふにゃ
+    - role: sound engineer
+      name: NNZNa
+    # - role: 
+    #   name: OFUTONE
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=3IpcZcpPglE
+
+- short_title: 命 (仮歌)
+  title: 命 (仮歌)
+  artists:
+    - role: vocal
+      name: 初音ミク
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=j8Qq_27tBx0
+      note: Auto-generated by YouTube
+
+- short_title: Pictures
+  title: Pictures feat. 4s4ki
+  artists:
+    - role: vocal
+      name: 4s4ki
+    - roles: [Lyricist, Composer]
+      name: Neko Hacker
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=rL2YkAdaSIo
+      note: Auto-generated by YouTube
+
+- short_title: Sigh
+  title: Sigh feat. をとは
+  artists:
+    - role: vocal
+      name: をとは
+    - roles: [Lyricist, Composer]
+      name: Neko Hacker
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=adhkwuwdnyw
+      note: Auto-generated by YouTube
+
+- short_title: Moonlight
+  title: Moonlight feat. ぷにぷに電機
+  artists:
+    - role: [vocal, Lyricist]
+      name: ぷにぷに電機
+    - role: Composer
+      name: Neko Hacker
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=KHOFqgkvmAE
+      note: Auto-generated by YouTube
+
+- short_title: Fly High
+  title: Fly High feat. mochari
+  artists:
+    - role: vocal
+      name: mochari
+    - roles: [Lyricist, Composer]
+      name: Neko Hacker
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=adhkwuwdnyw
+      note: Auto-generated by YouTube
+
+- short_title: Listen
+  title: Listen feat. をとは
+  artists:
+    - role: vocal
+      name: をとは
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=adhkwuwdnyw
+      note: Auto-generated by YouTube
+
+- short_title: Isekai Market
+  title: Isekai Market feat. ななひら, mochari & をとは
+  artists:
+    - role: vocal
+      name: ななひら
+    - role: vocal
+      name: mochari
+    - role: vocal
+      name: をとは
+    - roles: [Lyricist, Composer]
+      name: Neko Hacker
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=8burbmg0Ns0
+      note: Auto-generated by YouTube
+
+
+## 参加作品
+
+- title: God knows…
+  artists:
+    - role: composer
+      name: 神前 暁
+    - role: Lyricist
+      name: 畑 亜貴
+    - role: vocal
+      name: 富士葵
+    - role: Arrange
+      name: Neko Hacker
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=u3MqTs1vaTo
+      note: 視聴
+
+- short_title: Peaceful Time
+  title: Peaceful Time (Matcha Land & Neko Hacker)
+  artists:
+    - role: vocal
+      name: Matcha Land
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=xYwQ8Ni2MJ0
+      note: Auto-generated by YouTube
+
+
+## 提供楽曲
+
+- title: てをつなごう
+  artists:
+    - role: vocal
+      name: 虹河ラキ
+    - role: illustrator
+      name: ずほ
+    - role: sound engineer
+      name: NNZN
+    - role: music
+      name: Neko Hacker
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=6MiWndi_C0E
+
+- title: ほしがふるよる
+  artists:
+    - role: vocal
+      name: 虹河ラキ
+    - role: illustrator
+      name: ずほ
+    - role: sound engineer
+      name: NNZN
+    - role: music
+      name: Neko Hacker
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=1sKgm1jLDzQ
+
+- title: そばにいる
+  artists:
+    - role: vocal
+      name: 虹河ラキ
+    - role: illustrator
+      name: ずほ
+    - role: sound engineer
+      name: NNZN
+    - role: music
+      name: Neko Hacker
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=lX72gBn6kNA
+
+- title: スタンバイ
+  artists:
+    - roles: [Song, Dance]
+      name: 虹河ラキ
+    - role: illustrator
+      name: ずほ
+    - role: sound engineer
+      name: NNZN
+    - role: music
+      name: Neko Hacker
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=A0kifiCEVGg
+      is_mv: true
+
+- title: どれみのじゅもん
+  artists:
+    - roles: [vocal, dance]
+      name: 虹河ラキ
+    - role: music
+      name: Neko Hacker
+  sources:
+    - site: youtube
+      id: IZ45CJEFO1M
+      is_mv: true
+
+- title: ありがとう
+  artists:
+    - roles: [Song, Dance]
+      name: 虹河ラキ
+    - role: music
+      name: Neko Hacker
+  sources:
+    - site: youtube
+      url: https://www.youtube.com/watch?v=SK0VFL4GEpY
+      is_mv: true
+
+- short_title: 進め！むじなカンパニー
+  title: "進め！むじなカンパニー feat. 六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花)"
+  artists:
+    - role: vocal
+      name: "六科なじむ (CV: 日高里菜)"
+    - role: vocal
+      name: "割戸真友 (CV: 金元寿子)"
+    - role: vocal
+      name: "軽井沢ユキ (CV: 上坂すみれ)"
+    - role: vocal
+      name: "出稼ぎガルシア (CV: 金子彩花)"
+    - role: composer
+      name: Neko Hacker
+    - role: lyricist
+      name: Neko Hacker
+    - role: movie
+      name: をとは
+    - role: movie
+      name: ふにゃ
+    - role: sound engineer
+      name:  NNZN
+    - role: Produce
+      name: OFUTONE
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=jC1YgNLJVxs
+
+- title: けーきりろん
+  # title: "けーきりろん feat. 六科なじむ (CV: 日高里菜)"
+  artists:
+    - role: vocal
+      name: "六科なじむ (CV: 日高里菜)"
+
+
+- title: CIDER
+  artists:
+    - role: vocal
+      name: あまさしお/天野七瑠、笹 翼、汐谷文康
+    - role: Music
+      name: Gen Tanakaya
+    - role: Words
+      name: Neko Hacker
+    - role: Arrange
+      name: Neko Hacker
+
+- title: O108ROCKET (feat. Neko Hacker)
+  artists:
+    - roles: [vocal, MV, Lyric, Illustration]
+      name: をとは
+    - role: music
+      name: Neko Hacker
+    - roles: [Rec, Mix, Mastering]
+      name: NNZN
+    - role: Produce
+      name: OFUTONE
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=65MVxnJbS0c
+
+- title: Do You Even DJ? (feat. Neko Hacker)
+  artists:
+    - role: vocal
+      name: "桜乃美々兎 (CV: 小坂井祐莉絵)"
+    - role: [Music, Lyrics]
+      name: Neko Hacker
+    - role: Illust
+      name: をとは
+    - role: Movie
+      name: ふにゃ
+    - role: Sound Engineer
+      name: NNZN
+  sources:
+    - site: YouTube
+      url: https://www.youtube.com/watch?v=RBzshSyyQI4

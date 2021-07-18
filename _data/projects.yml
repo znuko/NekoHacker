@@ -1,36 +1,117 @@
-- title: Chocolate Adventure feat. ななひら
+## stream sites:
+##   toneden: https://www.toneden.io
+##
+
+## めも
+## artists -> creators
+
+- title: アルバムタイトル
+  type: Albam
+  numbering: 0th
+  release: 1997-07-22
+  artworks:
+  tracks:
+    - title: ほげほげソング
+    - title: にゃんにゃんの歌
+  websites:
+    - name: official website
+      url: https://nekohacker.com/neko-hacker/
+    - name: tunecore # サブスクリンクまとめてるやつ
+      url: https://linkco.re/4BfCnsHh
+      id: 4BfCnsHh
+
+
+####
+
+- title: Chocolate Adventure
+  artists: Neko Hacker
   type: Single
-  release: 2019-02-14
   numbering: 1st
+  release: 2019-02-14
+  tracks:
+    - title: Chocolate Adventure feat. ななひら
+  website:
+    - name: nekohacker.com
+      url: https://nekohacker.com/chocolate-adventure/
 
-- title: Home Sweet Home feat. KMNZ LIZ
+- title: Home Sweet Home
+  artists: Neko Hacker
   type: Single
-  release: 2019-04-20
   numbering: 2nd
+  release: 2019-04-20
+  tracks:
+    - title: Home Sweet Home feat. KMNZ LIZ
+  website:
+    - name: nekohacker.com
+      url: https://nekohacker.com/home-sweet-home/
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2020/01/H_S_H_artwork-1024x1024.jpg
 
-- title: ガチで恋するお前らへ feat. うごくちゃん
+- title: ガチで恋するお前らへ
+  artists: Neko Hacker
   type: Single
-  release: 2019-09-01
   numbering: 3rd
+  release: 2019-09-01
+  tracks:
+    - title: ガチで恋するお前らへ feat. うごくちゃん
+  website:
+    - name: nekohacker.com
+      url: https://nekohacker.com/gachikoi/
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2020/01/gachikoi_artwork.jpg
 
-- title: One by One feat. KMNZ LIZ
+- title: One by One
+  artists:
+    - Neko Hacker
+    - KOTONOHOUSE
   type: Single
-  release: 2020-06-12
   numbering: 4th
+  release: 2020-06-12
+  tracks:
+    - title: One by One feat. KMNZ LIZ
+  website:
+    - name: nekohacker.com
+      url: https://nekohacker.com/one-by-one/
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2020/08/One_by_One_FIX-1024x1024.jpg
 
-- title: 曖昧サイボーグ feat. うごくちゃん & JungMato
+- title: 曖昧サイボーグ
+  artists: Neko Hacker
   type: Single
-  release: 2020-06-30
   numbering: 5th
+  release: 2020-06-30
+  tracks:
+    - title: 曖昧サイボーグ feat. うごくちゃん & JungMato
+  websites:
+    - name: official website
+      url: https://nekohacker.com/aimai-cyborg/
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2021/01/曖昧サイボーグ-feat-うごくちゃん-JungMato-mp3-image-1024x1024.jpg
 
+- title: Sleep Tight
+  artists: Neko Hacker
+  type: Single
+  numbering: 6th
+  release: 2021-01-14
+  tracks:
+    - title: Sleep Tight feat. まこと
+  websites:
+    - name: official website
+      url: https://nekohacker.com/sleeptight/
+    - name: tunecore
+      url: https://linkco.re/4BfCnsHh
+  artworks:
+  - url: https://nekohacker.com/wp-content/uploads/2021/01/Sleep-Tight-Artwork-1024x1024.png
+
+
+## Albam
 
 - title: Neko Hacker
   type: Albam
-  release: 2020-01-15
   numbering: 1st
-  music:
+  release: 2020-01-15
+  tracks:
     - title: From Zero feat. 利香
-      test: にゃあ
     - title: くいしんぼハッカー feat. くいしんぼあかちゃん
     - title: Home Sweet Home feat. KMNZ LIZ
     - title: Hack You feat. うごくちゃん
@@ -42,12 +123,18 @@
     - title: Night Sky feat. Mashilo & ichika
     - title: Chocolate Adventure feat. ななひら
     - title: Rainbow In The Dark feat. 利香
+  websites:
+    - name: official website
+      url: https://nekohacker.com/neko-hacker/
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2020/01/1stalbum_artwork-1024x1024.jpg
 
-- title: Stray
+- title: "Neko Hacker Ⅱ: Stray"
+  short_title: Stray
   type: Albam
   release: 2021-07-14
   numbering: 2nd
-  music:
+  tracks:
     - title: "進め!むじなカンパニー (Album ver.) feat. 六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花)"
     - title: ピポピポ -People People- feat. ななひら
     - title: シラズシラズ feat. KMNZ LIZ
@@ -62,74 +149,168 @@
     - title: Across The Boundary
     - title: Sleep Tight feat. まこと
     - title: 命 (仮歌)
+  websites:
+    - name: official website
+      url: https://nekohacker.com/neko-hacker-stray/
+  artworks:
+    - url: "https://nekohacker.com/wp-content/uploads/2021/07/メインジャケット-1-1024x1024.png"
 
+
+## EP
 
 - title: from-zero
   type: EP
-  release: 2018-03-11
   numbering: 1st
-  music:
+  release: 2018-03-11
+  tracks:
     - title: Sweet Dreams feat. 利香
     - title: From Zero feat. 利香
     - title: Sweet Dreams (Instrumental)
     - title: From Zero (Instrumental)
+  websites:
+    - name: nekohacker.com
+      url: https://nekohacker.com/from-zero/
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2019/12/From-Zero_artwork-1024x1024.jpg
 
 - title: SUMMER!
   type: EP
-  release: 2018-07-10
   numbering: 2nd
-  music:
+  release: 2018-07-10
+  tracks:
     - title: Daydream feat. mega & Sithu Aye
     - title: Night Sky feat. Mashilo & ichika
     - title: Daydream (Instrumental)
     - title: Night Sky (Instrumental)
+  websites:
+    - name: nekohacker.com
+      url: https://nekohacker.com/summer/
+    - name: spotify
+      url: https://open.spotify.com/album/3ZBFpKVCAusSBIAUxtFoU0
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2019/12/SUMMER-artwork-1024x1024.jpg
 
 - title: Reincarnation
   type: EP
-  release: 2020-03-14
   numbering: 3rd
-  music:
+  release: 2020-03-14
+  tracks:
     - title: Pictures feat. 4s4ki
     - title: Sigh feat. をとは
     - title: Shadows feat. Such
     - title: Moonlight feat. ぷにぷに電機
+  websites:
+    - name: nekohacker.com
+      url: https://nekohacker.com/reincarnation/
+    - name: tunecore
+      url: https://linkco.re/g2ypxYVh
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2020/03/00-3rdEP_jacket-1024x1024.jpg
 
 - title: Isekai Travel
   type: EP
-  release: 2020-11-01
   numbering: 4th
-  music:
+  release: 2020-11-01
+  tracks:
     - title: I Don't Care feat. ななひら
     - title: Fly High feat. mochari
     - title: Listen feat. をとは
     - title: Isekai Market feat. ななひら, mochari & をとは
+  websites:
+    - name: official website
+      url: https://nekohacker.com/isekai-travel/
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2021/01/01-I-Dont-Care-feat-ななひら-mp3-image-1024x1024.jpg
 
+
+
+## 参加作品
 
 - title: 未来茶屋 vol.0
+  artists: 未来茶レコード
   type: 参加作品
   release: 2019-01-12
-  music:
+  tracks:
+    - title: 白猫海賊船 feat. 日南結里
+      artists: Yunomi
+    - title: ゲームオーバー feat. TORIENA
+      artists: Yunomi
+    - title: コットンキャンディ・シープ・ナイト
+      artists: YUC’e & Aire
+    - title: アルケの悲しみ - Bitter Ver. -
+      artists: YUC’e
+    - title: プリズム feat. やのあんな
+      artists: KOTONOHOUSE
     - title: くいしんぼハッカー feat. くいしんぼあかちゃん
+      artists: Neko Hacker
+  website:
+    - name: nekohacker.com
+      url: https://nekohacker.com/miraichaya0/
+
+- title: 未来茶屋 vol.1
+  artists: 未来茶レコード
+  type: 参加作品
+  release: 2019-04-17
+  tracks:
+    - title: ロボットハート feat. Kizuna AI
+      artists: Yunomi
+    - title: ライフライン
+      artists: YUC’e
+    - title: エモーション feat. RANASOL
+      artists: KOTONOHOUSE
+    - title: Hack You feat. うごくちゃん
+      artists: Neko Hacker
+    - title: Rainbow Dream feat.Mo∀
+      artists: PSYQUI
+    - title: マシュマロ・マキアート feat.くいしんぼあかちゃん
+      artists: [KOTONOHOUSE, Yunomi]
+    - title: 恋の星占い、海をさして feat.くいしんぼあかちゃん
+      artists: [KOTONOHOUSE, Yonomi, Azuki]
+  website:
+    - name: nekohacker.com
+      url: https://nekohacker.com/miraichaya1/
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2020/01/miraichaya-vol.1-jacket.jpg
+
+- title: 未来茶屋 vol.2
+  artists: 未来茶レコード
+  type: 参加作品
+  release: 2019-10-16
+  tracks:
+    - title: 蝉時雨 feat. 福原遥
+      artists: Yunomi
+    - title: トワイライト feat. rinahamu
+      artists: KOTONOHOUSE
+    - title: Erased feat. YuNi
+      artists: Neko Hacker
+    - title: ぷかぷかワンダーランド feat. くいしんぼあかちゃん & Yoshino Yoshikawa
+      artists: Tomggg
+    - title:  Last Resort feat. ドーラ & 緑仙
+      artists: Peno
+    - title:  Fairytale feat. 菅野真衣
+      artists: yuigot
+    - title: Peaceful Time
+      artists: [Matcha Land, Neko Hacker]
+  website:
+    - name: nekohacker.com
+      url: https://nekohacker.com/miraichaya2/
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2020/01/未来茶屋-Vol.2.jpeg
 
 - title: IMAGINATION vol.1
   type: 参加作品
   release: 2019-03-01
-  music:
+  tracks:
     - title: God knows…
+      num: 12
+  website:
+    - name: tunecore
+      url: https://linkco.re/xe90Rc8C
+    - name: RKMusic
+      url: https://rkmusic.jp/release/IMAGINATION_vol1.html
 
-- title: 未来茶屋 vol.1
-  type: 参加作品
-  release: 2019-04-17
-  music:
-    - title: Hack You feat. うごくちゃん
 
-- title: 未来茶屋 vol.2
-  type: 参加作品
-  release: 2019-10-16
-  music:
-    - title: Erased feat. YuNi
-    - title: Peaceful Time (Matcha Land & Neko Hacker)
-
+## 楽曲提供
 
 - title: てをつなごう
   type: 虹河ラキ×TOKYOWAVE! Feat.Neko Hacker
@@ -164,7 +345,7 @@
 
 - title: ケセラセラ
   type: 楽曲提供
-  artists:
+  creators:
     - type: albam artist
       name: Re:A projecT
     - type: lyric
@@ -175,7 +356,7 @@
 
 - title: Shuwa*Shuwa Parfait
   type: 楽曲提供
-  artists:
+  creators:
     - type: albam artist
       name: ななひら
     - type: lyric
@@ -186,7 +367,7 @@
 
 - title: Magical Girl
   type: 楽曲提供
-  artists:
+  creators:
     - type: albam artist
       name: ななひら
     - type: lyric
@@ -197,7 +378,7 @@
 
 - title: Doki Doki Virus
   type: 楽曲提供
-  artists:
+  creators:
     - type: albam artist
       name: ななひら×mega
     - type: lyric
@@ -208,8 +389,9 @@
 
 - title: Digital Life Hacker
   type: 楽曲提供
-  artists:
-    - type: albam artist
+  artists: をとは
+  creators:
+    - type: vocal
       name: をとは
     - type: lyric
       name: Neko Hacker
@@ -217,20 +399,37 @@
       name: Neko Hacker
   release: 
 
-- title: CIDER
-  type: 楽曲提供
-  artists:
-    - type: albam artist
-      name: あさましお
+- title: あまさしお/WELCOME, LADIES!! しお盤
+  type: EP
+  artists: あまさしお
+  creators:
+    - type: vocal
+      name: あまさしお
     - type: lyric
       name: Neko Hacker
     - type: creator
       name: Neko Hacker
-  release: 
+  release: 2019-09-13
+  tracks:
+    - title: WELCOME, LADIES!!
+      creators:
+        - types: [Music, Words, Arrange]
+          names: [篠崎あやと, 橘亮祐]
+    - title: CIDER
+      # creators:
+      #   - type: Music
+      #     name: Gen Tanakaya
+      #   - type: Words
+      #     name: Neko Hacker
+      #   - type: Arrange
+      #     name: Neko Hacker
+    - title: CIDER -off vocal-
+  artworks:
+    - url: https://amasashio.com/img/common/rel_07.png
 
 - title: トーキョーアイデンティティー
   type: 楽曲提供
-  artists:
+  creators:
     - type: albam artist
       name: CY8ER
     - type: lyric
@@ -241,7 +440,7 @@
 
 - title: For The Win
   type: 楽曲提供
-  artists:
+  creators:
     - type: albam artist
       name: 湊あくあ
     - type: lyric
@@ -250,13 +449,63 @@
       name: Neko Hacker
   release: 
 
-- title: 進め! むじなカンパニー
-  type: タイアップ
-  artists:
+- title: 進め！むじなカンパニー
+  long_title: アニメ「幼女社長」OP「進め ! むじなカンパニー」
+  type: EP
+  creators:
     - type: albam artist
-      name: テレビアニメ「幼女社長」
+      name: Neko Hacker
     - type: lyric
       name: Neko Hacker
     - type: creator
       name: Neko Hacker
-  release: 
+  release: 2021-01-15
+  tracks:
+    - title: "進め！むじなカンパニー feat. 六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花)"
+    - title: "むじな de なじむ feat. 六科なじむ (CV: 日高里菜)"
+    - title: 進め！むじなカンパニー (instrumental)
+    - title: むじな de なじむ (instrumental)
+  websites:
+    - name: nekohacker.com
+      url: https://nekohacker.com/susume/
+    - name: toneden
+      url: https://nekohacker.streamlink.to/susume
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2021/01/OP表-1024x1024.png
+
+- title: けーきりろん / ぐっない
+  sub_title: アニメ「幼女社長」キャラクターソング
+  long_title: けーきりろん/ぐっない アニメ「幼女社長」キャラクターソング
+  artists:
+    - 六科なじむ(CV:日高里菜)
+    - Neko Hacker
+  type: EP
+  release: 2021-04-14
+  tracks:
+    - title: けーきりろん
+    - title: ぐっない
+    - title: けーきりろん(instrumental)
+    - title: ぐっない(instrumental)
+  websites:
+    - name: nokehacker.com
+      url: https://nekohacker.com/cake/
+    - name: toneden
+      url: https://najimu.streamlink.to/cake
+  artworks:
+    - url: https://nekohacker.com/wp-content/uploads/2021/07/名前修正-1024x1024.png
+
+- title: O108ROCKET (feat. Neko Hacker)
+  artists: をとは
+  type: Single
+  tracks:
+    - title: O108ROCKET (feat. Neko Hacker)
+
+- title: Do You Even DJ? (feat. Neko Hacker)
+  artists: 電音部
+  tracks:
+    - title: Do You Even DJ? (feat. Neko Hacker)
+      # artists:
+      #   - type: Music
+      #     name: Neko Hacker
+      #   - type: vocal
+      #     name: "桜乃美々兎 (CV: 小坂井祐莉絵)"

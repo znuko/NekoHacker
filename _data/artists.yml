@@ -1,8 +1,35 @@
 - name: Neko Hacker
   social:
-    homepage:
-    youtube:
-    wikipedia: https://ja.wikipedia.org/wiki/Neko_Hacker
+    - name: Official Website
+      url: https://nekohacker.com
+    - name: twitter
+      id: neko_hacker
+    - name: instagram
+      id: neko_hacker
+      url: https://www.instagram.com/neko_hacker/
+    - name: youtube
+      id: UCYYLjFslMa575OOJvV-h8xw
+      url: https://www.youtube.com/channel/UCYYLjFslMa575OOJvV-h8xw
+    - name: spotify
+      url: https://open.spotify.com/artist/2aQ9IoRPwXEhhBVj4wbS46
+    - name: Apple Music
+      url: https://music.apple.com/jp/artist/neko-hacker/1357056919
+    - name: bilibili
+      url: https://space.bilibili.com/441652229
+    - name: wikipedia
+      url: https://ja.wikipedia.org/wiki/Neko_Hacker
+
+- name: Sera
+  social:
+    - name: twitter
+      id: sera1250
+
+- name: OFUTONE
+  social:
+    - name: official website
+      url: https://ofutone.com/
+
+## vocalists
 
 - name: ななひら
 
@@ -10,52 +37,48 @@
 
 - name: うごくちゃん
 
-- name: JungMato
-
 - name: 利香
+  social:
+    - name: twitter
+      id: kuroneko_datenn
+    - name: youtube
+      url: https://www.youtube.com/channel/UCz4jhqrCfthF8NnldZeK_rw
+
+- name: くいしんぼあかちゃん
+  social:
+    - name: sound cloud
+      url: https://soundcloud.com/aka_chan
 
 - name: YuNi
 
-
 - name: Mashilo
   social:
-    twitter: mashilo_
-
-- name: ichika
-  social:
-    twitter: https://twitter.com/ichika_mo
-    instagram: https://www.instagram.com/ichika_mo/
-    youtube: https://www.youtube.com/channel/UCq3Wpi10SyZkzVeS7vzB5Lw
-    wikipedia: https://ja.wikipedia.org/wiki/Ichika
+    - name: twitter
+      id: mashilo_
 
 - name: をとは
   social:
-    fanbox: https://wotoha.fanbox.cc
+    - name: fanbox
+      url: https://wotoha.fanbox.cc
 
 - name: "六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花)"
 
-- name: Mochari
-  social:
-    twitter: chari_0528
-    twitter_sub: mocha_2nd
-    youtube: UCiABmaiyRzZdyWy3iAjpeLg
-    fanbox: https://mochari.fanbox.cc
-    linktree: https://linktr.ee/mochari
 
 - name: 白針うに
   social:
-    twitter: shirahariuni
-    youtube: UCDl5qfjqZR5MLN1pogAgBog
-    tiktok: https://www.tiktok.com/@hedgehoguni
+    - name: twitter
+      id: shirahariuni
+    - name: youtube
+      id: UCDl5qfjqZR5MLN1pogAgBog
+    - name: tiktok
+      url: https://www.tiktok.com/@hedgehoguni
 
 - name: Such
   social:
-    twitter: zjxer
-    youtube: UCJHX-1yVUoTXcLKBoRgSjMw
-
-- name: ふにゃ
-
-- name: NNZN
+    - name: twitter
+      id: zjxer
+    - name: youtube
+      id: UCJHX-1yVUoTXcLKBoRgSjMw
 
 - name: まこと
 
@@ -65,4 +88,104 @@
 
 - name: 虹河ラキ
   social:
-    twitter: nijikawa_laki
+    - name: twitter
+      id: nijikawa_laki
+
+- name: 富士葵
+  social:
+    - name: Official Website
+      url: https://fujiaoi.com/
+
+
+- name: あまさしお
+  social:
+    - name: Official Site
+      url: https://amasashio.com
+    - name: youtube playlist
+      url: https://www.youtube.com/playlist?list=PLcIU6I9TzvWyyQzbm2EItv4ZDd1gqAjwB
+    - name: twitter
+      url: https://twitter.com/amasashio
+
+
+
+## musicians
+
+- name: Sho
+  social:
+    - name: twitter
+      id: kassaaaaaaan
+
+- name: NNZN
+  social:
+    - name: twitter
+      id: NNZNsss
+    - name: instagram
+      id: nnzn_works
+
+- name: JungMato
+
+- name: ichika
+  social:
+    - name: twitter
+      url: https://twitter.com/ichika_mo
+    - name: instagram
+      url: https://www.instagram.com/ichika_mo/
+    - name: youtube
+      url: https://www.youtube.com/channel/UCq3Wpi10SyZkzVeS7vzB5Lw
+    - name: wikipedia
+      url: https://ja.wikipedia.org/wiki/Ichika
+
+- name: Mochari
+  social:
+    - name: twitter
+      id: chari_0528
+    - name: twitter
+      id: mocha_2nd
+    - name: youtube
+      id: UCiABmaiyRzZdyWy3iAjpeLg
+    - name: fanbox
+      url: https://mochari.fanbox.cc
+    - name: linktree
+      url: https://linktr.ee/mochari
+
+- name: Sithu Aye
+  social:
+    - name: twitter
+      id: Sithu_Aye
+
+## Actress
+
+- name: てらたぬ。
+  social:
+    - name: twitter
+      id: teratanuki3366
+
+
+## illustrators
+
+- name: きあと
+  social:
+    - name: Twitter
+      id: _kiato
+    - name: Official Website
+      url: http://kiato.jp/
+
+- name: ずほ
+  social:
+    - title: twitter
+      url: https://twitter.com/zuhonyanko
+    - title: pixiv
+      url: https://www.pixiv.net/users/13340835
+
+- name: ふにゃ
+  social:
+    - name: twitter
+      id: _FUNY4
+    - name: official website
+      url: https://funya.fun/
+
+- name: せいまんぬ
+  social:
+    - name: Twitter
+      url: https://twitter.com/seimannu
+
