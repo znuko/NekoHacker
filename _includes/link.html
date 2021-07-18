@@ -1,0 +1,55 @@
+<style>
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+{% for src in include.src %}
+  {% assign name = src.site | downcase %}
+  {% assign url = src.url %}
+  {% assign id = src.id %}
+
+  {% if url == nil and id == nil %}
+    {% continue %}
+  {% endif %}
+
+  {% if name == "youtube" %}
+    {% assign size = 0.5 %}
+    {% assign height = 315 | times: size %}
+    {% assign width = 560 | times: size %}
+
+    {% if url %}
+      {% assign id = url | replace: "https://www.youtube.com/watch?v=", "" %}
+    {% endif %}
+
+    {% assign url = id | prepend: "https://www.youtube.com/embed/" %}
+
+    <div class="embed-container">
+      <iframe title="YouTube video player" width="{{ width }}" height="{{ height }}" src="{{ url }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <!-- <iframe width="{{ width }}" height="{{ height }}" src="{{ url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+  {% else %}
+      {{ name }}
+  {% endif %}
+{% endfor %}
+
+
+
+
+
+
+<a href="{{ site_url }}" target="_blank">{{ site_name }}</a>
+
