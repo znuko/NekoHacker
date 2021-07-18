@@ -176,6 +176,13 @@
   h2 {
     border: solid 1px tomato;
     padding-left: 10px;
+    padding: 10px;
+    &::after {
+      content: "+";
+      float: right;
+      margin-top: -2px;
+      // border: solid 1px tomato;
+    }
   }
   h3 {
     border-left: solid 5px tomato;
