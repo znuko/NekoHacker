@@ -26,24 +26,26 @@
 </ul>
 {%- endcomment -%}
 
-{% assign social_accounts = include.src %}
-
-{% capture services %}
-  homepage
-  twitter
-  youtube
-  tiktok
-  wikipedia
-  fanbox
-  linktree
-{% endcapture %}
-{% assign services = services | split: " " %}
 
 <ul>
-  {% for service in services %}
-    {% assign account = social_accounts | map: service | join: "" %}
-    {% if account != empty %}
-      <li>{{ service }}: {{ account }}</li>
-    {% endif %}
-  {% endfor %}
+{% for social in include.social %}
+
+  {% assign name = social.name %}
+  {% assign id = social.id %}
+
+  {%- capture url -%}
+    {%- if social.url -%}
+      {{- social.url -}}
+    {%- elsif name == "twitter" -%}
+      {{- "https://twitter.com/" }}{{ id -}}
+    {%- endif -%}
+  {%- endcapture -%}
+
+  {% if url != "" %}
+    <li><a href="{{ url }}" target="_blank">{{ name }}</a></li>
+  {% else %}
+    <li>{{ name }}</li>
+  {% endif %}
+  
+{% endfor %}
 </ul>
