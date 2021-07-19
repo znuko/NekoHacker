@@ -172,22 +172,6 @@
   // background-color: aquamarine;
   @extend %wrapper;
   @include padding(tb, $spacing-unit);
-
-  h2 {
-    border: solid 1px tomato;
-    padding-left: 10px;
-    padding: 10px;
-    &::after {
-      content: "+";
-      float: right;
-      margin-top: -2px;
-      // border: solid 1px tomato;
-    }
-  }
-  h3 {
-    border-left: solid 5px tomato;
-    padding-left: 5px;
-  }
 }
 
 .page-heading {
@@ -336,4 +320,44 @@
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8));
   min-height: 50px;
   padding: 10px;
+}
+
+// pages
+
+.track-item {
+  h2 {
+    // border: solid 1px tomato;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding: 10px;
+    // &::after {
+    //   content: "+";
+    //   float: right;
+    //   margin-top: -2px;
+    // }
+  }
+  h3 {
+    border-left: solid 5px tomato;
+    padding-left: 5px;
+  }
+}
+
+.track-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  // flex-grow: 0;
+
+  .track-item {
+    width: 400px;
+    margin-bottom: $spacing-unit;
+    border: solid 1px tomato;
+    // background-color: $brand-color-light;
+  }
+  .info-area {
+    // display: none;
+  }
+  .mv {
+    display: none;
+  }
 }
