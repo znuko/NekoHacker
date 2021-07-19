@@ -135,7 +135,7 @@
     - name: wikipedia
       url: https://ja.wikipedia.org/wiki/Ichika
 
-- name: Mochari
+- name: mochari
   social:
     - name: twitter
       id: chari_0528

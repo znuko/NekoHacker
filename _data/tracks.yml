@@ -152,7 +152,7 @@
     - role: Guitar Solo
       name: Sithu Aye
     - role: Actress
-      neme: てらたぬ。
+      name: てらたぬ。
   sources:
     - site: youtube
       url: https://www.youtube.com/watch?v=U2MMi7BOLjc
@@ -163,7 +163,7 @@
     - role: vocal
       name: 利香
     - role: Track Making & Guitar
-      name: Sera https://twitter.com/sera1250
+      name: Sera
     - role: Melody Making
       name: Sho
     - role: Lyrics
@@ -332,7 +332,7 @@
     - role: animator
       name: ふにゃ
     - role: sound engineer
-      name: NNZNa
+      name: NNZN
     # - role: 
     #   name: OFUTONE
   sources:
@@ -376,7 +376,7 @@
 - short_title: Moonlight
   title: Moonlight feat. ぷにぷに電機
   artists:
-    - role: [vocal, Lyricist]
+    - roles: [vocal, Lyricist]
       name: ぷにぷに電機
     - role: Composer
       name: Neko Hacker
@@ -596,7 +596,7 @@
   artists:
     - role: vocal
       name: "桜乃美々兎 (CV: 小坂井祐莉絵)"
-    - role: [Music, Lyrics]
+    - roles: [Music, Lyrics]
       name: Neko Hacker
     - role: Illust
       name: をとは
