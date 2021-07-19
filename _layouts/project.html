@@ -21,7 +21,7 @@ layout: default
   <p>Numbering: {{ project.numbering }}</p>
 
   <h4>tracks</h4>
-  <ul>
+  <ol>
     {% for track in project.tracks %}
       {% if track.url %}
         <li><a href="{{ track.url }}">{{ track.title }}</a></li>
@@ -29,7 +29,7 @@ layout: default
         <li>{{ track.title }}</li>
       {% endif %}
     {% endfor %}
-  </ul>
+  </ol>
 
   <h4>websites</h4>
   <ul>
