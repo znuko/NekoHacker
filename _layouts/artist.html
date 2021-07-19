@@ -16,4 +16,27 @@ layout: default
 {% endif %}
 
 
+{% if artist.vocal_ids != empty %}
+  <h3>tracks (vocal)</h3>
+  <ul>
+    {% for track_id in artist.vocal_ids %}
+      {% assign track = site.data.tracks | where: "id", track_id | first %}
+      <li><a href="{{ track.url }}">{{ track.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if artist.track_ids != empty %}
+  <h3>tracks</h3>
+  <ul>
+    {% for track_id in artist.track_ids %}
+      {% assign track = site.data.tracks | where: "id", track_id | first %}
+      <li><a href="{{ track.url }}">{{ track.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+
+
 {% endfor %}
