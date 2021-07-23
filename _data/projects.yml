@@ -2,25 +2,6 @@
 ##   toneden: https://www.toneden.io
 ##
 
-## めも
-## artists -> creators
-
-- title: アルバムタイトル
-  type: Albam
-  numbering: 0th
-  release: 1997-07-22
-  artworks:
-  tracks:
-    - title: ほげほげソング
-    - title: にゃんにゃんの歌
-  websites:
-    - name: official website
-      url: https://nekohacker.com/neko-hacker/
-    - name: tunecore # サブスクリンクまとめてるやつ
-      url: https://linkco.re/4BfCnsHh
-      id: 4BfCnsHh
-
-
 ####
 
 - title: Chocolate Adventure
@@ -308,6 +289,8 @@
       url: https://linkco.re/xe90Rc8C
     - name: RKMusic
       url: https://rkmusic.jp/release/IMAGINATION_vol1.html
+  artworks:
+    url: https://rkmusic.jp/release/img/IMAGINATION_vol1/jacket.jpg
 
 
 ## 楽曲提供
@@ -346,68 +329,99 @@
 - title: ケセラセラ
   type: 楽曲提供
   creators:
-    - type: albam artist
+    - role: albam artist
       name: Re:A projecT
-    - type: lyric
+    - role: lyric
       name: Neko Hacker
-    - type: creator
+    - role: creator
       name: Neko Hacker
   release: 
 
 - title: Shuwa*Shuwa Parfait
-  type: 楽曲提供
-  creators:
-    - type: albam artist
-      name: ななひら
-    - type: lyric
-      name: Neko Hacker
-    - type: creator
-      name: Neko Hacker
-  release: 
+  albam_artist: ななひら
+  type: Single
+  release: 2019-08-26
 
-- title: Magical Girl
-  type: 楽曲提供
+- title: ななめが王国
+  type: Albam
+  albam_artist: ななひら×mega
+  release: 2019-10-27
   creators:
-    - type: albam artist
-      name: ななひら
-    - type: lyric
-      name: Neko Hacker
-    - type: creator
-      name: Neko Hacker
-  release: 
+    - role: Jacket Illust
+      name: 寺田てら
+    - role: Design
+      name: ひかがみひなみ
+    - role: Web Design
+      name: ヒトマスモドル
+  tracks:
+    - title: Doki Doki Virus
+      num: 3
+  website:
+    - name: special site
+      url: https://nanahira.jp/nanamega_kingdom/
 
-- title: Doki Doki Virus
-  type: 楽曲提供
+- title: Midnight Future
+  type: Albam
+  albam_artist: ななひら
+  release: 2020-01-15 # spotify
+  # release: 2019-12-31 # コミケ
   creators:
-    - type: albam artist
-      name: ななひら×mega
-    - type: lyric
-      name: Neko Hacker
-    - type: creator
-      name: Neko Hacker
-  release: 
+    - role: Jacket Illust
+      name: あう子
+    - role: Design
+      name: murAta Yuzi
+  tracks:
+    - title: ミッドナイト、スターライト
+      artists:
+        - roles: [Music, Lyrics]
+          name: KOTONOHOUSE
+    - title: ミライヌコ
+      artists:
+        - role: Music
+          name: EmoCosine
+        - role: Lyrics
+          name: S.Rinne
+    - title: トゥインクル・パスワード
+      artists:
+        - roles: [Music, Lyrics]
+          name: colate
+    - title: New One!
+      artists:
+        - roles: [Music, Lyrics]
+          name: Ryunosuke Kudo
+    - title: OKOTA
+      artists:
+        - roles: [Music, Lyrics]
+          name: t+pazolite
+    - title: またあした
+      artists:
+        - roles: [Music, Lyrics]
+          name: kamome sano
+    - title: Magical Girl
+      artists:
+        - roles: [Music, Lyrics]
+          name: Neko Hacker
+    - title: おやすみ、おやすみ
+      artists:
+        - roles: [Music, Lyrics]
+          name: かめりあ
+  website:
+    - name: special site
+      url: http://nanahira.jp/midnight_future/
+  artworks:
+    # - url: http://nanahira.jp/midnight_future/img/jacket.png
+    - url: http://nanahira.jp/midnight_future/img/jacket.jpg
 
-- title: Digital Life Hacker
-  type: 楽曲提供
-  artists: をとは
-  creators:
-    - type: vocal
-      name: をとは
-    - type: lyric
-      name: Neko Hacker
-    - type: creator
-      name: Neko Hacker
-  release: 
 
 - title: あまさしお/WELCOME, LADIES!! しお盤
   type: EP
   artists: あまさしお
   creators:
-    - type: vocal
+    - role: vocal
       name: あまさしお
-    - type: lyric
+    - role: lyric
       name: Neko Hacker
-    - type: creator
+    - role: creator
       name: Neko Hacker
   release: 2019-09-13
   tracks:
@@ -416,36 +430,32 @@
         - types: [Music, Words, Arrange]
           names: [篠崎あやと, 橘亮祐]
     - title: CIDER
-      # creators:
-      #   - type: Music
-      #     name: Gen Tanakaya
-      #   - type: Words
-      #     name: Neko Hacker
-      #   - type: Arrange
-      #     name: Neko Hacker
     - title: CIDER -off vocal-
+  websites:
+    - name: spotify
+      url: https://open.spotify.com/album/0YI69EfIUsAdwjm2sx4mE7
   artworks:
     - url: https://amasashio.com/img/common/rel_07.png
 
 - title: トーキョーアイデンティティー
   type: 楽曲提供
   creators:
-    - type: albam artist
+    - role: albam artist
       name: CY8ER
-    - type: lyric
+    - role: lyric
       name: Neko Hacker
-    - type: creator
+    - role: creator
       name: Neko Hacker
   release: 
 
 - title: For The Win
   type: 楽曲提供
   creators:
-    - type: albam artist
+    - role: albam artist
       name: 湊あくあ
-    - type: lyric
+    - role: lyric
       name: Neko Hacker
-    - type: creator
+    - role: creator
       name: Neko Hacker
   release: 
 
@@ -453,11 +463,11 @@
   long_title: アニメ「幼女社長」OP「進め ! むじなカンパニー」
   type: EP
   creators:
-    - type: albam artist
+    - role: albam artist
       name: Neko Hacker
-    - type: lyric
+    - role: lyric
       name: Neko Hacker
-    - type: creator
+    - role: creator
       name: Neko Hacker
   release: 2021-01-15
   tracks:
@@ -494,18 +504,59 @@
   artworks:
     - url: https://nekohacker.com/wp-content/uploads/2021/07/名前修正-1024x1024.png
 
+
+- title: jelly girl
+  type: Albam
+  albam_artist: をとは
+  release: 2020-04-07
+  tracks:
+    - title: jelly girl
+    - title: Digital Life Hacker
+    - title: TESHiKANi
+    - title: Happy (fam) 2
+    - title: Lonerism
+    - title: プリズムソング
+    - title: Cobalt Dreams
+    - title: jelly girl (piano version)
+    - title: J'sRPG
+  websites:
+    - name: tunecore
+      url: https://linkco.re/UmxUxrZB
+
 - title: O108ROCKET (feat. Neko Hacker)
-  artists: をとは
+  albam_artist: をとは
   type: Single
   tracks:
     - title: O108ROCKET (feat. Neko Hacker)
+
+- title: KMNVERSE
+  albam_artist: KMNZ
+  type: Albam
+  release: 2019-11-22
+  tracks:
+    - title: OPENING
+    - title: R U GAME?
+    - title: melty girl
+    - title: sTarZ
+    - title: retouch
+    - title: DEF / RAG
+    - title: VR
+    - title: GALAXY
+  websites:
+    - name: tunecore
+      url: https://linkco.re/6mCgCDyt
+    - name: spotify
+      url: https://open.spotify.com/album/0XAL0fKAalk8ctIjZeSDxS
+
+
+
 
 - title: Do You Even DJ? (feat. Neko Hacker)
   artists: 電音部
   tracks:
     - title: Do You Even DJ? (feat. Neko Hacker)
       # artists:
-      #   - type: Music
+      #   - role: Music
       #     name: Neko Hacker
-      #   - type: vocal
+      #   - role: vocal
       #     name: "桜乃美々兎 (CV: 小坂井祐莉絵)"

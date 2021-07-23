@@ -10,6 +10,11 @@
     - name: youtube
       id: UCYYLjFslMa575OOJvV-h8xw
       url: https://www.youtube.com/channel/UCYYLjFslMa575OOJvV-h8xw
+    - name: soundcloud
+      url: https://soundcloud.com/neko_hacker
+      id: neko_hacker
+    - name: bandcamp
+      url: https://nekohacker.bandcamp.com
     - name: spotify
       url: https://open.spotify.com/artist/2aQ9IoRPwXEhhBVj4wbS46
     - name: Apple Music
@@ -24,6 +29,12 @@
     - name: twitter
       id: sera1250
 
+- name: Sho
+  social:
+    - name: twitter
+      id: kassaaaaaaan
+  note: かっさん
+
 - name: OFUTONE
   social:
     - name: official website
@@ -32,8 +43,22 @@
 ## vocalists
 
 - name: ななひら
+  social:
+    - name: twitter
+      id: nanahira
+
+- name: KMNZ
+  social:
+    - name: official website
+      url: https://www.kmnz.jp
 
 - name: KMNZ LIZ
+  social:
+    - name: youtube
+      id: UCRMpIxnySp7Fy5SbZ8dBv2w
+    - name: twitter
+      id: kmnzliz
+
 
 - name: うごくちゃん
 
@@ -58,6 +83,18 @@
 
 - name: をとは
   social:
+    - name: twitter
+      id: mitukineu
+    - name: youtube
+      id: UCLXxry0HqEz_mzHSsXwrhYg
+    - name: instagram
+      id: neu0054
+    - name: soundcloud
+      url: mituki-neu
+    - name: apple music
+      url: https://music.apple.com/jp/artist/1501284019
+    - name: tunecore
+      url: https://www.tunecore.co.jp/artists/0108
     - name: fanbox
       url: https://wotoha.fanbox.cc
 
@@ -109,11 +146,6 @@
 
 
 ## musicians
-
-- name: Sho
-  social:
-    - name: twitter
-      id: kassaaaaaaan
 
 - name: NNZN
   social:
@@ -188,4 +220,61 @@
   social:
     - name: Twitter
       url: https://twitter.com/seimannu
+
+## ななひら　しゅわしゅわ
+
+- name: ねことりな
+  social:
+    - name: Twitter
+      id: necon1_
+
+- name: Ryo Asakura
+  social:
+    - name: Twitter
+      id: seventhgraphics
+
+- name: ひかがみひなみ
+  social:
+    - name: Twitter
+      id: moucou
+
+## Re:A projecT
+
+- name: 双理マイ
+  social:
+    - name: Twitter
+      id: Mai_Futari
+    - name: YouTube
+      id: UCCvInijwD6Qg9xwdtYJcYtQ
+
+- name: 夢川かなう
+  social:
+    - name: Twitter
+      id: Kanau_Yumekawa
+    - name: YouTube
+      id: UC8jskpQfW9fn2NLK3PdaGdg
+
+- name: ゆにゆにこ
+  social:
+    - name: Twitter
+      id: _uniunico_
+    - name: YouTube
+      id: UCmTcayoDVo7HXAAV_mquHEg
+
+- name: 藤本よう
+  social:
+    - name: Twitter
+      id: xxyyu02
+
+- name: 黒野ユウ
+  social:
+    - name: Twitter
+      id: kuronoyuu
+
+
+
+
+
+
+
 
