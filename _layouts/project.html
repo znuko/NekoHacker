@@ -6,8 +6,10 @@ layout: default
 
 {{ content }}
 
-{% for project in site.data.projects %}
+<div class="track-container">
 
+{% for project in site.data.projects %}
+<div class="track-item">
   <h3 id="{{ project.id }}">{{ project.title }}</h3>
 
   {% if project.artworks %}
@@ -18,7 +20,7 @@ layout: default
   {% endif %}
 
   <p>Release: {{ project.release }}</p>
-  <p>Numbering: {{ project.numbering }}</p>
+  <p>{{ project.numbering }} | {{ project.type }}</p>
 
   <h4>tracks</h4>
   <ol>
@@ -42,6 +44,6 @@ layout: default
 
 
 
-
+</div>
 {% endfor %}
-
+</div>
