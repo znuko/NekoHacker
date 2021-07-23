@@ -85,8 +85,10 @@ end
 ## roleとrolesのどっちで指定してもokにする
 tracks.each do |track|
   track["artists"].each do |artist|
-    artist["roles"] = artist["roles"] || []
+    artist["role"] = [] if artist["role"].nil?
     artist["role"] = [artist["role"]] unless artist["role"].is_a?(Array)
+    artist["roles"] = [] if artist["roles"].nil?
+    artist["roles"] = [artist["roles"]] unless artist["roles"].is_a?(Array)
     artist["roles"] += artist["role"]
     artist["roles"].each{|r| r&.downcase!}.compact!
   end
