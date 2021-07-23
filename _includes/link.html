@@ -1,21 +1,4 @@
-<style>
-  .embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-  }
-  .embed-container iframe,
-  .embed-container object,
-  .embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>
+
 
 {% for src in include.src %}
   {% assign name = src.site | downcase %}
@@ -34,13 +17,43 @@
     {% if url %}
       {% assign id = url | replace: "https://www.youtube.com/watch?v=", "" %}
     {% endif %}
-
     {% assign url = id | prepend: "https://www.youtube.com/embed/" %}
+
+    <style>
+      .embed-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+      }
+      .embed-container iframe,
+      .embed-container object,
+      .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
 
     <div class="embed-container">
       <iframe title="YouTube video player" width="{{ width }}" height="{{ height }}" src="{{ url }}" frameborder="0" allowfullscreen></iframe>
     </div>
-    <!-- <iframe width="{{ width }}" height="{{ height }}" src="{{ url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    {%- comment -%}
+      <iframe width="{{ width }}" height="{{ height }}" src="{{ url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {%- endcomment -%}
+
+  {% elsif name == "soundcloud" %}
+    {% assign name = "SoundCloud" %}
+
+    {% if id %}
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ id }}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+    {% elsif url %}
+      <a href="{{ url }}">{{ name }}</a>
+    {% endif %}
+
   {% else %}
       {{ name }}
   {% endif %}
