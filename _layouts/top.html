@@ -4,65 +4,10 @@ layout: default
 
 {{ content }}
 
-<h1>Music tracks</h1>
+<h1>List</h1>
 
-<div class="track-container">
-  {%- for track in site.data.tracks %}
-  <div class="track-item">
-
-    <h2 id="{{ track.id }}">{{ track.short_title }}</h2>
-
-    {% if track.sources %}
-      <div class="mv">
-        <!-- <h3>Sources</h3> -->
-        {% include link.html src=track.sources %}
-      </div>
-    {% endif %}
-
-    <div class="info-area">
-      <p>title: {{ track.title }}</p>
-      <p>{{ track.first_release }}</p>
-
-      {% if track.artists[0] %}
-        <h3>Artists</h3>
-        <ul>
-          {% for artist in track.artists %}
-            {% assign roles = artist.roles | join: " & " %}
-
-            {% if artist.url %}
-              <li>{{ roles }}: <a href="{{ artist.url }}">{{ artist.name }}</a></li>
-            {% else %}
-              <li>{{ roles }}: {{ artist.name }}</li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      {% endif %}
-
-      {% if track.projects != nil and track.projects != empty %}
-        <h3>Projects</h3>
-        <ul>
-          {% for project in track.projects %}
-            {% assign prj = site.data.projects | where: "id", project.id | first %}
-            <li>{{ prj.release }}: <a href="{{ prj.url }}">{{ prj.title }}</a>, {{ project.track_number }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-
-
-
-    </div>
-  </div>
-  {%- endfor %}
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
+<ul>
+{% for track in site.data.tracks %}
+  <li><a href="{{ track.url }}">{{ track.title }}</a></li>
+{% endfor %}
+</ul>
