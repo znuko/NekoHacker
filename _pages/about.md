@@ -15,10 +15,11 @@ permalink: /about/
 - TRACKS
   - 年でページわけ
     - 重いので
-  - リリース日でソート
-
+    - linkの修正
 
 
 ## エラー
 
+<div>
 {{ site.warnings | join: "<br>" }}
+</div>
