@@ -82,11 +82,13 @@ tracks.each do |track|
 end
 
 ## artistのroleを配列にする
+## roleとrolesのどっちで指定してもokにする
 tracks.each do |track|
   track["artists"].each do |artist|
     artist["roles"] = artist["roles"] || []
-    artist["roles"].push(artist["role"]).compact!
-    artist["roles"].each{|r| r&.downcase!}
+    artist["role"] = [artist["role"]] unless artist["role"].is_a?(Array)
+    artist["roles"] += artist["role"]
+    artist["roles"].each{|r| r&.downcase!}.compact!
   end
 end
 
@@ -178,6 +180,27 @@ projects.each do |project|
 end
 
 #
+# データの接続 join
+#
+
+# ## trackにartistの情報をjoin
+# tracks.each do |track|
+#   track["artists"].each do |x|
+#     matching = artists.select {|m| m["id"] == x["id"]} [0]
+#     x.merge!(matching) unless matching.nil?
+#   end
+# end
+
+# ## trackにprojectの情報をjoin
+# tracks.each do |track|
+#   track["projects"].each do |x|
+#     matching = projects.select {|m| m["id"] == x["id"]} [0]
+#     x.merge!(matching) unless matching.nil?
+#   end
+# end
+
+
+#
 # データの追加
 #
 
@@ -211,7 +234,7 @@ tracks.each do |track|
       "sort" => sort_num
     })
   end
-  
+
   sort_num = track["release"].to_s + "-" + format('%02d', 0).to_s
   sorting_sets.push({
     "date" => track["release"],
@@ -219,7 +242,7 @@ tracks.each do |track|
     "sort" => sort_num
   }).select! {|set| !set["date"].nil?}
 
-  sorting_set = sorting_sets.min_by {|d, n, s| s}
+  sorting_set = sorting_sets.sort_by {|h| h["sort"]} [0]
 
   if sorting_set.nil?
     warnings.push("no release setting: #{track["title"]}")
@@ -230,11 +253,27 @@ tracks.each do |track|
 end
 
 ## tracksをreleas順でソート
-sortable_tracks = tracks.select {|t| t["sort"]} .sort_by! {|t| t["sort"]}
-unsortable_tracks = tracks.select {|t| !t["sort"]}
-site.data["tracks"] = sortable_tracks + unsortable_tracks
+sortables = tracks.select {|t| t["sort"]} .sort_by! {|t| t["sort"]}
+unsortables = tracks.select {|t| !t["sort"]}
+site.data["tracks"] = sortables + unsortables
 
+## projectsをrelease順でソート
+sortables = projects.select {|p| p["release"]} .sort_by! {|p| p["release"]}
+unsortables = projects.select {|p| !p["release"]} 
+site.data["projects"] = sortables + unsortables
 
+## trackのprojectsをrelease順にソート
+tracks.each do |track|
+  sortables = track["projects"].select do |project|
+    projects.select {|p| p["id"] == project["id"]} [0]["release"]
+  end .sort_by! do |project|
+    projects.select {|p| p["id"] == project["id"]} [0]["release"]
+  end
+  unsortables = track["projects"].select do |project|
+    !projects.select {|p| p["id"] == project["id"]} [0]["release"]
+  end
+  track["projects"] = sortables + unsortables
+end
 
 
 
