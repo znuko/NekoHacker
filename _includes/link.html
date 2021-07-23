@@ -1,7 +1,7 @@
 
 
 {% for src in include.src %}
-  {% assign name = src.site | downcase %}
+  {% assign name = src.name | downcase %}
   {% assign url = src.url %}
   {% assign id = src.id %}
 
@@ -64,5 +64,5 @@
 
 
 
-<a href="{{ site_url }}" target="_blank">{{ site_name }}</a>
+
 

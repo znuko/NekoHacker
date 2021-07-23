@@ -326,25 +326,64 @@
   numbering: 第6弾
 
 
-- title: ケセラセラ
-  type: 楽曲提供
-  creators:
-    - role: albam artist
-      name: Re:A projecT
-    - role: lyric
-      name: Neko Hacker
-    - role: creator
-      name: Neko Hacker
-  release: 
+- title: "Since-Re:ly ～シンシアリー～"
+  type: EP
+  artist: "Re:A projecT"
+  release: 2019-05-19
+  tracks:
+    - title: "Since-Re:ly ～シンシアリー～"
+      artists:
+      - role: 作詞
+        name: 開道結子
+      - role: 作曲
+        name: 難波研
+      - role: vocal
+        names: 女性タレント全員(14名)
+    - title: 徒然Pieces
+      artists:
+        - role: [作詞, 作曲]
+          name: Lemm
+        - role: vocal
+          names: [琴みゆり, 丑牡てぃあ, 宇佐美ユノ]
+    - title: 急上昇ガールズ
+      artists:
+        - role: [作詞, 作曲]
+          name: 烏屋茶房
+        - role: vocal
+          names: [獅子神レオナ, 多々星シエル, 夜霧メイ]
+    - title: 夢見ルピナス
+      artists:
+        - role: [作詞, 作曲]
+          name: 山本真央樹
+        - role: vocal
+          names: [綺羅星ウタ, 射貫まとい, 天秤はかり]
+    - title: ケセラセラ
+      artists:
+        - role: [作詞, 作曲]
+          name: Neko Hacker
+        - role: vocal
+          names: [双理マイ, 夢川かなう, ゆにゆにこ]
+    - title: 風になれ恋心
+      artists:
+        - role: [作詞, 作曲]
+          name: 北川翔也
+        - role: vocal
+          names: [花鋏キョウ, 水瓶ミア]
+  websites:
+    - name: tunecore
+      url: https://linkco.re/1BfqmX8v
+    - name: official website
+      url: https://www.v-react.com/archives/981
+
 
 - title: Shuwa*Shuwa Parfait
-  albam_artist: ななひら
+  artist: ななひら
   type: Single
   release: 2019-08-26
 
 - title: ななめが王国
   type: Albam
-  albam_artist: ななひら×mega
+  artist: ななひら×mega
   release: 2019-10-27
   creators:
     - role: Jacket Illust
@@ -362,7 +401,7 @@
 
 - title: Midnight Future
   type: Albam
-  albam_artist: ななひら
+  artist: ななひら
   release: 2020-01-15 # spotify
   # release: 2019-12-31 # コミケ
   creators:
@@ -412,22 +451,35 @@
     # - url: http://nanahira.jp/midnight_future/img/jacket.png
     - url: http://nanahira.jp/midnight_future/img/jacket.jpg
 
+- title: Berry Pop
+  type: Single
+  artist: ななひら
+  release: 2021-01-05
+  creators:
+    - role: Jacket Illust
+      name: 上倉エク
+  websites:
+    - name: nanahira.jp
+      url: https://nanahira.jp/berryberry/
+    - name: ofutone.com
+      url: https://ofutone.com/berry-pop/
+    - name: tunecore
+      url: https://linkco.re/ZaAFD23Q
+    - name: spotify
+      url: https://open.spotify.com/album/2Sc916bOqpj8oEDUnohfbu
+  artworks:
+    - url: https://nanahira.jp/berryberry/images/BP_jacket.png
+
+
 
 - title: あまさしお/WELCOME, LADIES!! しお盤
   type: EP
   artists: あまさしお
-  creators:
-    - role: vocal
-      name: あまさしお
-    - role: lyric
-      name: Neko Hacker
-    - role: creator
-      name: Neko Hacker
   release: 2019-09-13
   tracks:
     - title: WELCOME, LADIES!!
-      creators:
-        - types: [Music, Words, Arrange]
+      artists:
+        - roles: [Music, Words, Arrange]
           names: [篠崎あやと, 橘亮祐]
     - title: CIDER
     - title: CIDER -off vocal-
@@ -448,27 +500,11 @@
       name: Neko Hacker
   release: 
 
-- title: For The Win
-  type: 楽曲提供
-  creators:
-    - role: albam artist
-      name: 湊あくあ
-    - role: lyric
-      name: Neko Hacker
-    - role: creator
-      name: Neko Hacker
-  release: 
 
 - title: 進め！むじなカンパニー
-  long_title: アニメ「幼女社長」OP「進め ! むじなカンパニー」
+  full_title: アニメ「幼女社長」OP「進め ! むじなカンパニー」
   type: EP
-  creators:
-    - role: albam artist
-      name: Neko Hacker
-    - role: lyric
-      name: Neko Hacker
-    - role: creator
-      name: Neko Hacker
+  artist: Neko Hacker
   release: 2021-01-15
   tracks:
     - title: "進め！むじなカンパニー feat. 六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花)"
@@ -485,7 +521,7 @@
 
 - title: けーきりろん / ぐっない
   sub_title: アニメ「幼女社長」キャラクターソング
-  long_title: けーきりろん/ぐっない アニメ「幼女社長」キャラクターソング
+  full_title: けーきりろん/ぐっない アニメ「幼女社長」キャラクターソング
   artists:
     - 六科なじむ(CV:日高里菜)
     - Neko Hacker
@@ -505,9 +541,31 @@
     - url: https://nekohacker.com/wp-content/uploads/2021/07/名前修正-1024x1024.png
 
 
+- title: 運命を討つ約束を
+  sub_title: PROJECT SCARD TVアニメ「プレイタの傷」キャラクターソング
+  full_title: PROJECT SCARD TVアニメ「プレイタの傷」キャラクターソング『運命を討つ約束を』
+  type: Single
+  artist: "エイジ (CV:髙坂篤志) & カガミ (CV:榎木淳弥)"
+  release: 2020-09-30
+  tracks:
+    - title: "運命を討つ約束を by エイジ (CV:髙坂篤志) & カガミ (CV:榎木淳弥)"
+    - title: "運命を討つ約束を by エイジ (CV:髙坂篤志) version (ボンジュール鈴木 remix)"
+    - title: "運命を討つ約束を by カガミ (CV:榎木淳弥) version (Neko Hacker remix)"
+    - title: "After Interview(ミニドラマ)"
+    - title: "運命を討つ約束を by エイジ (CV:髙坂篤志) & カガミ (CV:榎木淳弥) instrumental"
+    - title: "運命を討つ約束を by エイジ (CV:髙坂篤志) version (ボンジュール鈴木 remix) instrumental"
+    - title: "運命を討つ約束を by カガミ (CV:榎木淳弥) version (Neko Hacker remix) instrumental"
+  websites:
+    - name: official website
+      url: https://project-scard.com/cd/charasong001/
+    - name: spotify
+      url: https://open.spotify.com/album/5VMqvPDOqbHarJmmIrrN0m
+  artworks:
+    - url: https://project-scard.com/wp-content/uploads/2020/07/vol.1-1200x1185.jpg
+
 - title: jelly girl
   type: Albam
-  albam_artist: をとは
+  artist: をとは
   release: 2020-04-07
   tracks:
     - title: jelly girl
@@ -524,13 +582,14 @@
       url: https://linkco.re/UmxUxrZB
 
 - title: O108ROCKET (feat. Neko Hacker)
-  albam_artist: をとは
+  artist: をとは
   type: Single
   tracks:
     - title: O108ROCKET (feat. Neko Hacker)
 
+
 - title: KMNVERSE
-  albam_artist: KMNZ
+  artist: KMNZ
   type: Albam
   release: 2019-11-22
   tracks:
@@ -549,14 +608,170 @@
       url: https://open.spotify.com/album/0XAL0fKAalk8ctIjZeSDxS
 
 
-
-
 - title: Do You Even DJ? (feat. Neko Hacker)
-  artists: 電音部
+  artist: 電音部
   tracks:
     - title: Do You Even DJ? (feat. Neko Hacker)
-      # artists:
-      #   - role: Music
-      #     name: Neko Hacker
-      #   - role: vocal
-      #     name: "桜乃美々兎 (CV: 小坂井祐莉絵)"
+
+- title: Roulette!
+  type: Single
+  artist: MonsterZ MATE
+  websites:
+    - name: spotify
+      url: https://open.spotify.com/album/3ZNsliSnfZiXxwrwmxIjsD
+
+
+- title: エキゾチックテレパシー
+  type: 
+  artist: 夜光性アミューズ
+  websites:
+    - name: tunecore
+      url: https://zula.lnk.to/XQWuiEZL
+    - name: spotify
+      url: https://open.spotify.com/album/5HOsCNHyw3SJoTMv9lOKcp
+    - name: youtube
+      url: https://www.youtube.com/channel/UCi-LfAyQYt0Eyjsqm8uff4w
+    - name: ofutone.com
+      url: https://ofutone.com/yoruami-1/
+
+
+- title: REFLECT
+  type: Single
+  artist: Gawr Gura
+  websites:
+    - name: toneden
+      url: https://gawrgura.streamlink.to/reflect
+    - name: spotify
+      url: https://open.spotify.com/album/1lHZW9pX9v8lofTrhXo9MN
+
+
+- title: クウハク
+  type: Albam
+  artist: 田中あいみ
+  release: 2021-03-24
+  tracks:
+    - title: jam
+    - title: 未草
+      artists:
+        - role: 作詞
+          namea: [田中あいみ, 加藤有加利]
+        - role: 作曲
+          name: 加藤有加利
+        - role: 編曲
+          name: 遠藤ナオキ
+    - title: MilkPuzzle
+      artists:
+        - role: 作詞
+          namea: [田中あいみ, 加藤有加利]
+        - role: 作曲
+          name: 加藤有加利
+        - role: 編曲
+          name: 遠藤ナオキ
+    - title: ラベンダーララバイ
+    - title: jam(Instrumental)
+    - title: 未草(Instrumental)
+    - title: MilkPuzzle(Instrumental)
+    - title: ラベンダーララバイ(Instrumental)
+  websites:
+    - name: ofutone.com
+      url: https://ofutone.com/kuuhaku/
+
+
+## 作曲以外
+- title: "||:Caesura of Despair"
+  type: EP
+  artist: IRyS
+  release: 2021-07-12
+  tracks:
+    - title: Caesura of Despair
+      artists:
+        - roles: [Lyrics, Composer]
+          name: buzzG
+        - role: Arranger
+          name: Coch
+        - roles: [Recording, Mixing]
+          name: NNZN
+        - role: Vocal Direction
+          name: Neko Hacker
+    - title: diorama
+      artists:
+        - roles: [Lyrics, Composer, Arranger]
+          name: TAKAHIRO MORIMOTO
+    - title: HERE COMES HOPE
+      artists:
+        - role: Lyrics
+          name: hotaru
+        - role: Composer
+          name: Tom-H@ck
+        - role: Arranger
+          name: RINZO
+    - title: Caesura of Despair (attacca ver.)
+      artists:
+        - roles: [Lyrics, Composer]
+          name: buzzG
+        - role: Arranger
+          name: DJ’TEKINA//SOMETHIG a.k.a Yuyoyuppe
+  websites:
+    - name: ofutone.com
+      url: https://ofutone.com/caesura-of-despair-irys/
+    - name: toneden
+      url: https://irys.streamlink.to/CoD
+    - name: spotify
+      url: https://open.spotify.com/album/6yKMo95JkibE9tGN81dgFh
+
+
+- title: Palette
+  type: Single
+  artist: 常闇トワ
+  release: 2021-03-18
+  websites:
+    - name: ofutone.com
+      url: https://ofutone.com/palette/
+    - name: spotify
+      url: https://open.spotify.com/album/01Ttefoa06QfdNlhbS0ttS
+
+- title: FROM
+  type: Single
+  artist: Such
+  release: 2020-10-01
+  tracks:
+    - title: FROM
+    - title: FROM (instrumental)
+
+- title: THE BLUE MOON FROM THE ROOM.
+  type: EP
+  artist: Various Artists
+  release: 2021-02-06
+  tracks:
+    - title: ROOM
+    - title: FROM
+    - title: BLUE
+    - title: MOON
+    - title: PERIOD
+  websites:
+    - name: tunecore
+      url: https://linkco.re/8bXQFtAG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

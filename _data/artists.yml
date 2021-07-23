@@ -59,27 +59,40 @@
     - name: twitter
       id: kmnzliz
 
-
-- name: うごくちゃん
-
-- name: 利香
-  social:
-    - name: twitter
-      id: kuroneko_datenn
-    - name: youtube
-      url: https://www.youtube.com/channel/UCz4jhqrCfthF8NnldZeK_rw
-
-- name: くいしんぼあかちゃん
-  social:
-    - name: sound cloud
-      url: https://soundcloud.com/aka_chan
-
 - name: YuNi
 
-- name: Mashilo
+- name: 虹河ラキ
   social:
     - name: twitter
-      id: mashilo_
+      id: nijikawa_laki
+
+- name: 富士葵
+  social:
+    - name: Official Website
+      url: https://fujiaoi.com/
+
+- name: Gawr Gura
+  social:
+    - name: twitter
+      id: gawrgura
+
+- name: 湊あくあ
+  social:
+    - name: twitter
+      id: 
+    - name: spotify
+      url: https://open.spotify.com/artist/6GHr4rGFHGRUuzuCuxJA0f
+
+- name: 白針うに
+  social:
+    - name: twitter
+      id: shirahariuni
+    - name: youtube
+      id: UCDl5qfjqZR5MLN1pogAgBog
+    - name: tiktok
+      url: https://www.tiktok.com/@hedgehoguni
+
+- name: うごくちゃん
 
 - name: をとは
   social:
@@ -98,17 +111,26 @@
     - name: fanbox
       url: https://wotoha.fanbox.cc
 
-- name: "六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花)"
-
-
-- name: 白針うに
+- name: 利香
   social:
     - name: twitter
-      id: shirahariuni
+      id: kuroneko_datenn
     - name: youtube
-      id: UCDl5qfjqZR5MLN1pogAgBog
-    - name: tiktok
-      url: https://www.tiktok.com/@hedgehoguni
+      url: https://www.youtube.com/channel/UCz4jhqrCfthF8NnldZeK_rw
+
+- name: くいしんぼあかちゃん
+  social:
+    - name: sound cloud
+      url: https://soundcloud.com/aka_chan
+
+
+- name: Mashilo
+  social:
+    - name: twitter
+      id: mashilo_
+
+
+- name: "六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花)"
 
 - name: Such
   social:
@@ -121,18 +143,7 @@
 
 - name: 4s4ki
 
-# - name: ぷにぷに電機
-
-- name: 虹河ラキ
-  social:
-    - name: twitter
-      id: nijikawa_laki
-
-- name: 富士葵
-  social:
-    - name: Official Website
-      url: https://fujiaoi.com/
-
+- name: ぷにぷに電機
 
 - name: あまさしお
   social:
@@ -143,6 +154,21 @@
     - name: twitter
       url: https://twitter.com/amasashio
 
+
+- name: 田中あいみ
+  social:
+    - name: twitter
+      id: kanataimi​
+    - name: instagram
+      id: kanataimi
+    - name: 81プロデュース
+      url: http://urx2.nu/OWWj
+
+
+- name: 夜光性アミューズ
+  social:
+    - name: official
+      url: https://www.yakousei-amuse.jp
 
 
 ## musicians
@@ -221,6 +247,7 @@
     - name: Twitter
       url: https://twitter.com/seimannu
 
+
 ## ななひら　しゅわしゅわ
 
 - name: ねことりな
@@ -270,6 +297,90 @@
   social:
     - name: Twitter
       id: kuronoyuu
+
+## MonsterZ MATE
+
+- name: INPINE
+  social:
+    - name: Twitter
+      id: https://twitter.com/INPINE_JP
+
+- name: 裕
+  social:
+    - name: Twitter
+      id: https://twitter.com/youcapriccio
+
+
+
+# うごく together
+
+- name: 志知
+  social:
+    - name: twitter
+      id: ponpeEX
+
+
+# トワ
+- name: 常闇トワ
+  social:
+    - name: twitter
+      id: tokoyamitowa
+- name: niki
+  social:
+    - name: twitter
+      id: niki_reverse
+- name: かかげ
+  social:
+    - name: twitter
+      id: kakage0904
+- name: Roly
+  social:
+    - name: twitter
+      id: yosinO_mo
+
+- name: IRyS
+  social:
+    - name: twitter
+      id: irys_en
+    - name: youtube
+      id: UC8rcEBzJSleTkf_-agPM20g
+
+# such FROM
+- name: なのか
+  social:
+    - name: twitter
+      id: kodoku_nanoca
+- name: 茗猫
+  social:
+    - name: twitter
+      id: mdxu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
