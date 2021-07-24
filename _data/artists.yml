@@ -169,6 +169,15 @@
   social:
     - name: official
       url: https://www.yakousei-amuse.jp
+    - name: youtube
+      url: https://www.youtube.com/channel/UCi-LfAyQYt0Eyjsqm8uff4w
+
+- name: CY8ER
+  social:
+    - name: official
+      url: https://cy8er.jp
+    - name: twitter
+      id: cy8erinfo
 
 
 ## musicians
@@ -303,12 +312,12 @@
 - name: INPINE
   social:
     - name: Twitter
-      id: https://twitter.com/INPINE_JP
+      id: INPINE_JP
 
 - name: 裕
   social:
     - name: Twitter
-      id: https://twitter.com/youcapriccio
+      id: youcapriccio
 
 
 

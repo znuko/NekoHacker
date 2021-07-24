@@ -67,16 +67,19 @@
     - name: youtube
       url: https://www.youtube.com/watch?v=Fj44MD1lRcc
 
-- short_title: One by One
-  title: One by One feat. KMNZ LIZ
+- title: One by One
+  full_title: One by One feat. KMNZ LIZ
+  id: One by One
   release: 2020-06-18 # youtube liz
   artists:
     - role: vocal
       name: KMNZ LIZ
-    - role: producer
-      name: KOTONOHOUSE
-    - role: producer duo
-      name: Neko Hacker
+    # - role: producer
+    #   name: KOTONOHOUSE
+    # - role: producer duo
+    #   name: Neko Hacker
+    - roles: [Lyricist, Composer]
+      names: [KOTONOHOUSE, Neko Hacker]
     - role: Art
       name: せいまんぬ
   sources:
@@ -448,13 +451,12 @@
       url: https://www.youtube.com/watch?v=u3MqTs1vaTo
       note: 視聴
 
-
-
-- short_title: Peaceful Time
-  title: Peaceful Time (Matcha Land & Neko Hacker)
+- title: Peaceful Time
   artists:
     - role: vocal
       name: Matcha Land
+    - role: 
+      name: Neko Hacker
   sources:
     - name: YouTube
       url: https://www.youtube.com/watch?v=xYwQ8Ni2MJ0
@@ -683,7 +685,8 @@
     - name: YouTube
       id: Zx4nMqR3jAk
 
-- title: O108ROCKET (feat. Neko Hacker)
+- title: O108ROCKET
+  long_title: O108ROCKET (feat. Neko Hacker)
   artists:
     - role: music
       name: Neko Hacker
@@ -716,7 +719,7 @@
   artists:
     - role: vocal
       name: "桜乃美々兎 (CV: 小坂井祐莉絵)"
-    - roles: [Music, Lyrics]
+    - roles: [Music, Lyrics] # 作詞作曲編曲
       name: Neko Hacker
     - role: Illust
       name: をとは
@@ -727,6 +730,7 @@
   sources:
     - name: YouTube
       url: https://www.youtube.com/watch?v=RBzshSyyQI4
+      release: 2021-05-28 # 22時 プレミア公開
 
 - title: ケセラセラ
   artists:
@@ -743,6 +747,13 @@
   sources:
     - name: youtube
       id: YL5seAenTN4
+
+- title: トーキョーアイデンティティ
+  artists:
+    - role: vocal
+      name: CY8ER
+    - role: [lyric, creator]
+      name: Neko Hacker
 
 - title: "運命を討つ約束を by カガミ (CV:榎木淳弥) version (Neko Hacker remix)"
   artists:
@@ -768,6 +779,9 @@
       name: INPINE
     - role: Illustration
       name: 裕
+  sources:
+    - name: youtube
+      id: 1sYIa3Ea9XM
 
 - title: エキゾチックテレパシー
   artists:
@@ -780,6 +794,9 @@
     - role: vocal
       name: 夜光性アミューズ
       members: [みぽたぽた, 白空こあい, ふてこ, 炎谷莉奈, 神楽ひなこ]
+  sources:
+    - name: youtube
+      id: ahfaWSHkd-s
 
 - title: REFLECT
   artists:
@@ -881,6 +898,7 @@
 
 - title: Yuyoyuppe & Neko Hacker - A.N.U.S.
   short_title: A.N.U.S.
+  projects: []
   artists:
     - name: ゆよゆっぺ
     - name: Neko Hacker
@@ -892,6 +910,7 @@
 
 - title: "Undertale: Death by Glamour (Cover by Neko Hacker feat. うぐ)"
   short_title: Death by Glamour
+  projects: []
   artists:
     - name: うぐ
       role: vocal
@@ -908,6 +927,8 @@
 
 
 - title: けけアイドル
+  release:  # youtube
+  projects: []
   artists:
     - role: うた
       name: うごくちゃん
@@ -924,6 +945,7 @@
 
 - title: together
   release: 2020-02-11 # youtube
+  projects: []
   artists:
     - role: vocal
       name: うごくちゃん
@@ -939,6 +961,7 @@
 
 - title: つっぱれ！にゃんきー魂
   release: 2021-05-13 # CHUNITHM収録
+  projects: []
   artists:
     - role: vocal
       name: うごくちゃん
@@ -957,6 +980,7 @@
 
 - title: For The Win
   release: 2020-10-26 # youtube
+  projects: []
   artists:
     - role: vocal
       name: 湊あくあ
@@ -978,6 +1002,17 @@
       url: https://ofutone.com/for-the-win/
 
 
-
+- title: jelly girl (Neko Hacker Remix)
+  release: 2020-04-03 # youtube
+  projects: []
+  artists:
+    - role: vocal
+      name: えおとは
+    - role: Remix
+      name: Neko Hacker
+  sources:
+    - name: YouTube
+      url: https://www.youtube.com/watch?v=CK0SkwrhIq8
+  note: オリジナルには無関係。rimixをつべにうpしてる。
 
 

@@ -64,7 +64,7 @@ errors = []
 ## nilなら[]で置き換え
 tracks.each do |t|
   t["artists"] = t["artists"] || []
-#   t["projects"] = t["projects"] || []
+  t["projects"] = t["projects"] || []
 end
 
 
@@ -122,7 +122,8 @@ end
 
 ## track["id"]を設定
 tracks.each do |track|
-  track["id"] = URI.escape(track["title"].gsub(" ", "_"))
+  track["id"] = track["title"] if track["id"].nil?
+  track["id"] = URI.escape(track["id"].gsub(" ", "_"))
   track["url"] = site.config["baseurl"].chomp("/") + "/#" + track["id"]
 end
 
@@ -167,16 +168,21 @@ end
 tracks.each {|t| t["projects"] = t["projects"] || []}
 projects.each do |project|
   project["tracks"].each do |track|
-    matching_track = tracks.select {|t| t["title"] == track["title"]} [0]
+    if track["id"].nil?
+      matching_track = tracks.select {|t| t["title"] == track["title"]} [0]
+    else
+      track["id"] = URI.escape(track["id"].gsub(" ", "_"))
+      matching_track = tracks.select {|t| t["id"] == track["id"]} [0]
+    end
+
     if matching_track.nil?
       warnings.push("no data in tracks.yml: #{track["title"]}")
-      track["id"] = nil
     else
-      track["id"] = matching_track["id"]
+      track["id"] = matching_track["id"] unless track["id"]
       matching_track["projects"].push({
         "id" => project["id"],
         "track_number" => track["num"]
-        }).uniq!
+      }).uniq!
     end
   end
 end
@@ -211,6 +217,7 @@ tracks.each do |track|
   track["artists"].each do |artist|
     next if artist["id"].nil?
     matching = artists.select {|a| a["id"] == artist["id"]} [0]
+    next if matching.nil?
     artist["url"] = matching["url"]
   end
 end
@@ -220,6 +227,7 @@ projects.each do |project|
   project["tracks"].each do |track|
     next if track["id"].nil?
     matching = tracks.select {|t| t["id"] == track["id"]} [0]
+    next if matching.nil?
     track["url"] = matching["url"]
   end
 end

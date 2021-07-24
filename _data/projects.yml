@@ -50,6 +50,7 @@
   release: 2020-06-12
   tracks:
     - title: One by One feat. KMNZ LIZ
+      id: One by One
   website:
     - name: nekohacker.com
       url: https://nekohacker.com/one-by-one/
@@ -85,10 +86,10 @@
   - url: https://nekohacker.com/wp-content/uploads/2021/01/Sleep-Tight-Artwork-1024x1024.png
 
 
-## Albam
+## album
 
 - title: Neko Hacker
-  type: Albam
+  type: album
   numbering: 1st
   release: 2020-01-15
   tracks:
@@ -112,7 +113,7 @@
 
 - title: "Neko Hacker Ⅱ: Stray"
   short_title: Stray
-  type: Albam
+  type: album
   release: 2021-07-14
   numbering: 2nd
   tracks:
@@ -209,7 +210,7 @@
 
 - title: 未来茶屋 vol.0
   artists: 未来茶レコード
-  type: 参加作品
+  type: 
   release: 2019-01-12
   tracks:
     - title: 白猫海賊船 feat. 日南結里
@@ -230,7 +231,7 @@
 
 - title: 未来茶屋 vol.1
   artists: 未来茶レコード
-  type: 参加作品
+  type: 
   release: 2019-04-17
   tracks:
     - title: ロボットハート feat. Kizuna AI
@@ -255,7 +256,7 @@
 
 - title: 未来茶屋 vol.2
   artists: 未来茶レコード
-  type: 参加作品
+  type: 
   release: 2019-10-16
   tracks:
     - title: 蝉時雨 feat. 福原遥
@@ -279,7 +280,7 @@
     - url: https://nekohacker.com/wp-content/uploads/2020/01/未来茶屋-Vol.2.jpeg
 
 - title: IMAGINATION vol.1
-  type: 参加作品
+  type: 
   release: 2019-03-01
   tracks:
     - title: God knows…
@@ -291,6 +292,35 @@
       url: https://rkmusic.jp/release/IMAGINATION_vol1.html
   artworks:
     url: https://rkmusic.jp/release/img/IMAGINATION_vol1/jacket.jpg
+
+
+- title: Synchronicity
+  type: Album
+  artist: KOTONOHOUSE
+  release: 2020-10-21
+  tracks:
+    - title: Mirror Mirror (feat. Such)
+    - title: Can u feel my heart (feat. punipuni denki)
+    - title: Midnight, Starlight (feat. nanahira)
+    - title: Endroll (feat. TORIENA)
+    - title: Gravity
+    - title: One by One (feat. KMNZ LIZ)
+      id: One by One
+    - title: Echo (feat. MONICO)
+    - title: pitter, patter (feat. TOFIE)
+    - title: Euphoria (feat. TOFIE)
+    - title: Alone (feat. KABOSNIKKI)
+    - title: Escape (feat. Kuishinbo Akachan & Yunomi)
+    - title: Star trail (feat. RANASOL)
+    - title: Marine snow (feat. RANASOL)
+  websites:
+    - name: tunecore
+      yrl: https://linkco.re/GmgtEz1e
+    - name: spotify
+      url: https://open.spotify.com/album/57BnqhiPFwjhlkR5Zrzyjp
+
+
+
 
 
 ## 楽曲提供
@@ -382,7 +412,7 @@
   release: 2019-08-26
 
 - title: ななめが王国
-  type: Albam
+  type: album
   artist: ななひら×mega
   release: 2019-10-27
   creators:
@@ -400,7 +430,7 @@
       url: https://nanahira.jp/nanamega_kingdom/
 
 - title: Midnight Future
-  type: Albam
+  type: album
   artist: ななひら
   release: 2020-01-15 # spotify
   # release: 2019-12-31 # コミケ
@@ -471,7 +501,6 @@
     - url: https://nanahira.jp/berryberry/images/BP_jacket.png
 
 
-
 - title: あまさしお/WELCOME, LADIES!! しお盤
   type: EP
   artists: あまさしお
@@ -489,16 +518,29 @@
   artworks:
     - url: https://amasashio.com/img/common/rel_07.png
 
-- title: トーキョーアイデンティティー
-  type: 楽曲提供
-  creators:
-    - role: albam artist
-      name: CY8ER
-    - role: lyric
-      name: Neko Hacker
-    - role: creator
-      name: Neko Hacker
-  release: 
+- title: 東京
+  type: Album
+  artist: CY8ER
+  release: 2020-01-22
+  tracks:
+    - title: 恋愛リアリティー症（feat.中田ヤスタカ）-extended mix-
+    - title: トーキョー・イノベーター
+    - title: ユメゾラココロ
+    - title: 東京少女
+    - title: ネクストドア。
+    - title: 東京ラットシティ
+    - title: もしもしじゃぽん
+    - title: トーキョーアイデンティティ
+    - title: 恋愛リアリティー症（feat.中田ヤスタカ）
+  websites:
+    - name: cy8er.jp
+      note: official website
+      url: https://cy8er.jp/musics/9583
+    - name: spotify
+      url: https://open.spotify.com/album/5VHjmwowDseXKwyGyYOQdd
+  artworks:
+    - url: https://cy8er.jp/s3/skiyaki/uploads/image/file/68641/927.jpg
+
 
 
 - title: 進め！むじなカンパニー
@@ -564,7 +606,7 @@
     - url: https://project-scard.com/wp-content/uploads/2020/07/vol.1-1200x1185.jpg
 
 - title: jelly girl
-  type: Albam
+  type: album
   artist: をとは
   release: 2020-04-07
   tracks:
@@ -581,16 +623,29 @@
     - name: tunecore
       url: https://linkco.re/UmxUxrZB
 
-- title: O108ROCKET (feat. Neko Hacker)
-  artist: をとは
+- title: O108ROCKET
   type: Single
+  artist: をとは
+  release: 2021-02-20
   tracks:
-    - title: O108ROCKET (feat. Neko Hacker)
+    - title: O108ROCKET
 
+- title: ジーニアース
+  type: EP
+  artist: をとは
+  release: 2021-05-08
+  tracks:
+    - title: O108ROCKET
+    - title: サイコロジック
+    - title: GEAR - yukiyanagi remix
+    - title: go w / da flo
+  websites:
+    - name: spotify
+      url: https://open.spotify.com/album/3INkweYsKPc9dBgemB4ChH
 
 - title: KMNVERSE
   artist: KMNZ
-  type: Albam
+  type: album
   release: 2019-11-22
   tracks:
     - title: OPENING
@@ -610,27 +665,34 @@
 
 - title: Do You Even DJ? (feat. Neko Hacker)
   artist: 電音部
+  release: 2021-05-29
   tracks:
     - title: Do You Even DJ? (feat. Neko Hacker)
+  artworks:
+    - url: https://adm.denonbu.jp/dcKr8evJWB/wp-content/uploads/DEDJ.jpg
+  website:
+    - name: denonbu.jp # official
+      url: https://denonbu.jp/news/1244/
+
 
 - title: Roulette!
   type: Single
   artist: MonsterZ MATE
+  release: 2021-05-28
   websites:
     - name: spotify
       url: https://open.spotify.com/album/3ZNsliSnfZiXxwrwmxIjsD
 
 
 - title: エキゾチックテレパシー
-  type: 
+  type: Single
   artist: 夜光性アミューズ
+  release: 2021-07-21
   websites:
     - name: tunecore
       url: https://zula.lnk.to/XQWuiEZL
     - name: spotify
       url: https://open.spotify.com/album/5HOsCNHyw3SJoTMv9lOKcp
-    - name: youtube
-      url: https://www.youtube.com/channel/UCi-LfAyQYt0Eyjsqm8uff4w
     - name: ofutone.com
       url: https://ofutone.com/yoruami-1/
 
@@ -638,6 +700,7 @@
 - title: REFLECT
   type: Single
   artist: Gawr Gura
+  release: 2021-06-22
   websites:
     - name: toneden
       url: https://gawrgura.streamlink.to/reflect
@@ -646,7 +709,7 @@
 
 
 - title: クウハク
-  type: Albam
+  type: album
   artist: 田中あいみ
   release: 2021-03-24
   tracks:
@@ -737,6 +800,7 @@
   tracks:
     - title: FROM
     - title: FROM (instrumental)
+  note: booth限定販売？ようつべ動画の概要欄情報。
 
 - title: THE BLUE MOON FROM THE ROOM.
   type: EP
@@ -751,6 +815,8 @@
   websites:
     - name: tunecore
       url: https://linkco.re/8bXQFtAG
+  artworks:
+    - url: https://t2.genius.com/unsafe/701x0/https%3A%2F%2Fimages.genius.com%2Fd9056543144676336df823bf3163c1b2.1000x1000x1.png
 
 
 
